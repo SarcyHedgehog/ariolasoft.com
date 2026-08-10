@@ -19,3 +19,15 @@ Production is hosted by GoDaddy. The manual GitHub Actions workflow in `.github/
 Development-only content (`source-data`, `tools`, `archive`, Git metadata and editor configuration) is excluded from deployment.
 
 Do not use the action's clean-slate option: the remote account may contain hosting-managed files outside this project.
+
+## Catalogue data and contributions
+
+`catalogue.json` is the authoritative catalogue data used by the public table, detail-page generator and contribution editor. Visitors use `catalogue-editor.html`; they do not edit repository files. The form opens a pre-filled catalogue suggestion for confirmation, and nothing is published at that point.
+
+Editorial review is deliberately two-stage:
+
+1. Check the submitted evidence and add the `ready-for-catalogue-review` label.
+2. GitHub Actions validates the structured suggestion and creates a pull request containing the exact data and generated-page changes.
+3. Merge the pull request to accept it, or close the pull request and issue to reject it.
+
+Run `python tools/catalogue.py validate` before committing manual catalogue changes. Run `python tools/catalogue.py build` after changing `catalogue.json`; generated title pages and the fallback table must be committed with the data.

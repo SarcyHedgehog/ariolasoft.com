@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Improve the Ariolasoft Catalogue</title>
+  <link rel="stylesheet" href="catalogue-editor.css">
+</head>
+<body>
+  <main class="editor-shell">
+    <header class="editor-header">
+      <div>
+        <div class="eyebrow">Ariolasoft UK Archive</div>
+        <h1>Suggest an update</h1>
+        <p class="intro">Choose a title, correct what you know, and tell us where the information came from. Nothing is published until it has been reviewed.</p>
+      </div>
+      <a class="back-link" href="titles.html">← Back to the catalogue</a>
+    </header>
+
+    <form id="suggestion-form">
+      <section class="panel">
+        <h2>Choose a catalogue entry</h2>
+        <label>Title to update
+          <select id="title-picker" aria-label="Title to update"></select>
+        </label>
+      </section>
+
+      <section class="panel">
+        <h2>Basic information</h2>
+        <div class="field-grid">
+          <label>Title <input name="title" required maxlength="150"></label>
+          <label>Year <input name="year" required type="number" min="1970" max="2000"></label>
+          <label>Developer <input name="developer" required maxlength="150"></label>
+          <label>Publishing label <input name="label" required maxlength="150"></label>
+        </div>
+        <fieldset>
+          <legend>Published platforms</legend>
+          <div class="checks" id="platforms"></div>
+        </fieldset>
+      </section>
+
+      <section class="panel">
+        <h2>Description and evidence</h2>
+        <label>Description <textarea name="description" maxlength="8000"></textarea></label>
+        <div class="field-grid">
+          <label>Sources <textarea name="sources" maxlength="3000" placeholder="Links, magazine references, packaging details or first-hand recollections"></textarea></label>
+          <div>
+            <label>Suggested image link <input name="imageSuggestion" type="url" maxlength="1000" placeholder="https://..."></label>
+            <label>Notes for the reviewer <textarea name="notes" maxlength="3000" placeholder="Anything that needs explanation"></textarea></label>
+          </div>
+        </div>
+        <p class="hint">Please only suggest images you own or that the archive can lawfully reproduce. Images are checked separately before being added.</p>
+      </section>
+
+      <section class="panel actions">
+        <button type="submit">Send for review</button>
+        <button class="secondary" id="reset-record" type="button">Undo my changes</button>
+        <span class="status" id="status" role="status"></span>
+      </section>
+    </form>
+  </main>
+  <script src="catalogue-editor.js"></script>
+</body>
+</html>

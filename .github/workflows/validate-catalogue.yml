@@ -1,0 +1,24 @@
+name: Validate catalogue
+
+on:
+  pull_request:
+    paths:
+      - catalogue.json
+      - titles.html
+      - titles/**
+      - tools/catalogue.py
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Validate canonical catalogue
+        run: python tools/catalogue.py validate
+      - name: Confirm generated detail pages are current
+        run: |
+          python tools/catalogue.py build
+          git diff --exit-code -- catalogue.json titles.html titles

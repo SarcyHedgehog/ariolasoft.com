@@ -73,11 +73,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
       var text = cell.textContent.trim().toLowerCase();
       if (text === "yes") {
-        cell.innerHTML =
-          '<span style="color: #007bff; font-size: 18px;">●</span><span style="display:none">Yes</span>';
+        cell.className = "platform-yes";
+        cell.innerHTML = '<span aria-hidden="true">●</span><span class="visually-hidden">Yes</span>';
       } else if (text === "no") {
-        cell.innerHTML =
-          '<span style="color: #444; font-size: 18px;">○</span><span style="display:none">No</span>';
+        cell.className = "platform-no";
+        cell.innerHTML = '<span aria-hidden="true">○</span><span class="visually-hidden">No</span>';
       }
     });
   });

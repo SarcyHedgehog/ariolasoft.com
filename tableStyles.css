@@ -62,6 +62,37 @@ td:nth-child(n+5) {
     color: #FFFFFF;
 }
 
+.catalogue-contribute {
+    margin: 0 0 20px;
+    padding: 14px 18px;
+    border: 1px solid #245f91;
+    border-radius: 9px;
+    background: #081b2d;
+}
+
+.catalogue-contribute a,
+.catalogue-contribute a:visited {
+    color: #54d8ff;
+    font-weight: bold;
+}
+
+.platform-yes > span:first-child,
+.platform-no > span:first-child { font-size: 18px; }
+.platform-yes > span:first-child { color: #1688ff; }
+.platform-no > span:first-child { color: #555555; }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 /* Same-page detail modal. Unlike a separate browser window, this has no
    browser address bar and remains usable on phones and tablets. */
 .catalog-detail-dialog {
