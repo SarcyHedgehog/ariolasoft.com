@@ -27,6 +27,12 @@ jobs:
             **/.github/**
             **/.vscode/**
             **/node_modules/**
+            .well-known/**
+            cgi-bin/**
+            ariolasoft.com/**
+            heronsgate.net/**
+            ibiar/**
+            thefamilybush.com/**
             README.md
             ftpquota
             *.old
