@@ -38,6 +38,10 @@ body {
     align-items: center;
 }
 
+#text-container.text-only {
+    width: 100%;
+}
+
 #text-header {
     font-size: 20px;
     margin-bottom: 10px;
