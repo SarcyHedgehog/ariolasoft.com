@@ -13,6 +13,36 @@ th, td {
     background-color: #000000;
 }
 
+.catalogue-header {
+    gap: 24px;
+}
+
+.catalogue-header h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.catalogue-home-link,
+.catalogue-home-link:visited {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.catalogue-home-link img {
+    width: auto;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.catalogue-home-link:hover span,
+.catalogue-home-link:focus-visible span {
+    color: #54d8ff;
+}
+
 /* Keep catalogue headings and filters visible while browsing long lists. */
 #myTable thead th {
     position: sticky;
