@@ -30,6 +30,7 @@ jobs:
             README.md
             ftpquota
             *.old
+            **/*.bat
             test.html
             archive/**
             source-data/**
