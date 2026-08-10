@@ -13,6 +13,15 @@ th, td {
     background-color: #000000;
 }
 
+/* Keep catalogue headings and filters visible while browsing long lists. */
+#myTable thead th {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: #000000;
+    box-shadow: 0 2px 0 #1688ff;
+}
+
 /* Header Height and Alignment */
 th.platform-col {
     height: 150px;
