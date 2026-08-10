@@ -1,0 +1,92 @@
+{
+  "adventureconstructionset": {
+    "slug": "adventureconstructionset",
+    "title": "Adventure Construction Set",
+    "year": 1984,
+    "developer": "Stuart Smith",
+    "label": "Electronic Arts",
+    "image": "images/adventureconstructionset.png",
+    "description": "Adventure Construction Set gave players the rare chance to become game designers themselves. With its tile-based interface and expansive toolkit, users could build their own RPG-style adventures complete with monsters, traps, treasure, and dialogue. The package included 'Rivers of Light', a sample game set in ancient Mesopotamia, but the real appeal was in crafting your own quests. A favourite among budding designers, it laid early groundwork for the concept of user-generated content."
+  },
+  "archon": {
+    "slug": "archon",
+    "title": "Archon: The Light and the Dark",
+    "year": 1983,
+    "developer": "Free Fall Associates",
+    "label": "Electronic Arts",
+    "image": "images/archon.png",
+    "description": "A magical mashup of chess and arcade combat, Archon sees Light battle Dark across a shifting board where control of power points means victory. Each piece has its own strengths — from phoenixes to trolls — but battles are fought in real-time arenas. With a dynamic board that changes day to night, tactics must shift accordingly. Free Fall's blend of strategy and reflex was groundbreaking and hugely influential."
+  },
+  "archoniiadept": {
+    "slug": "archoniiadept",
+    "title": "Archon II: Adept",
+    "year": 1984,
+    "developer": "Free Fall Associates",
+    "label": "Electronic Arts",
+    "image": "images/archoniiadept.png",
+    "description": "Expanding on the original Archon's formula, Adept trades the chessboard for elemental realms and introduces spellcasting adepts as key units. Each realm has its own rules, hazards, and guardians, and players must balance raw power with magical strategy. A deeper, weirder sequel that never quite hit the same popularity, but won cult admiration for its ambition and design."
+  },
+  "arcticfox": {
+    "slug": "arcticfox",
+    "title": "Arcticfox",
+    "year": 1986,
+    "developer": "Dynamix",
+    "label": "Electronic Arts",
+    "image": "images/arcticfox.png",
+    "description": "Set in the icy wastes of 2005, Arcticfox puts you in command of a high-tech tank battling alien invaders from the far north. With its 3D graphics and first-person cockpit view, it was a technical marvel for its time. Missiles, mines, and cunning AI made it one of the more tense and strategic shooters of the mid-80s. One of EA’s first original titles, and a sign of things to come."
+  },
+  "axisassassin": {
+    "slug": "axisassassin",
+    "title": "Axis Assassin",
+    "year": 1983,
+    "developer": "Electronic Arts",
+    "label": "Electronic Arts",
+    "image": "images/axisassassin.png",
+    "description": "A frantic vector-style shooter heavily inspired by Tempest, Axis Assassin drops you into a web of alien corridors to blast your way through ever-shifting enemies. Created by John Field and one of EA’s earliest releases, it offered rapid-fire gameplay with a unique sci-fi aesthetic. Less remembered today but emblematic of EA’s early experimentation."
+  },
+  "batalyx": {
+    "slug": "batalyx",
+    "title": "Batalyx",
+    "year": 1985,
+    "developer": "LLamasoft",
+    "label": "Ariolasoft",
+    "image": "images/batalyx.png",
+    "description": "A blend of strategy and arcade action, Batalyx gives players control of a robotic defence force spread across a series of mini-games. Designed by Pete Cooke, it was ambitious and odd in equal measure, shifting between screens to repel invasions and manage resources. The mix of gameplay styles didn’t always gel, but its experimental edge made it stand out."
+  },
+  "brideoffrankenstein": {
+    "slug": "brideoffrankenstein",
+    "title": "Bride of Frankenstein",
+    "year": 1983,
+    "developer": "Automated Simulations (Epyx)",
+    "label": "Ariolasoft",
+    "image": "images/brideoffrankenstein.png",
+    "description": "A text-and-graphic adventure loosely based on the Universal horror classic. You play as the monster, seeking to create a mate and avoid angry villagers. One of the earlier hybrid adventures to combine visual scenes with typed commands, it has a strange, campy charm and helped bridge the gap between arcade and narrative experiences."
+  },
+  "camelotwarriors": {
+    "slug": "camelotwarriors",
+    "title": "Camelot Warriors",
+    "year": 1986,
+    "developer": "Dinamic Software",
+    "label": "Ariolasoft",
+    "image": "images/camelotwarriors.png",
+    "description": "Originally a Spanish title, Camelot Warriors was localised and published by Ariolasoft in the UK. A side-scrolling platformer with fantasy elements, it tasks players with collecting items from different time periods to restore balance. Known for its challenging difficulty and crisp visuals, it was one of the better Euro-platformers of the era."
+  },
+  "centurionspowerxtreme": {
+    "slug": "centurionspowerxtreme",
+    "title": "Centurions: Power Xtreme",
+    "year": 1986,
+    "developer": "Enigma Variations",
+    "label": "Ariolasoft",
+    "image": "images/centurionspowerxtreme.png",
+    "description": "Based on the animated TV show, this action-platformer lets you play as one of the Centurions, futuristic soldiers equipped with interchangeable power suits. The gameplay was fairly straightforward side-scrolling shooting, but the presentation – complete with theme tune and cartoon cutscenes – gave it decent Saturday morning appeal."
+  },
+  "challengeofthegobots": {
+    "slug": "challengeofthegobots",
+    "title": "Challenge of the Gobots",
+    "year": 1986,
+    "developer": "Tony Love / Western Technologies",
+    "label": "Ariolasoft",
+    "image": "images/challengeofthegobots.png",
+    "description": "A side-scrolling shoot ’em up featuring the transforming robot toys that weren’t quite Transformers. Released for several 8-bit platforms, the game has you flying and driving through enemy territory, switching modes along the way. It’s a bit clunky by modern standards, but had just enough licence tie-in charm to entertain fans at the time."
+  }
+}

@@ -1,0 +1,57 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+th, td {
+    border: 1px solid #333333;
+    padding: 8px;
+    background-color: #000000;
+}
+
+/* Header Height and Alignment */
+th.platform-col {
+    height: 150px;
+    vertical-align: top;
+    position: relative;
+    padding: 5px 0;
+    width: 3.5%;
+}
+
+/* Rotating the Text */
+.vertical-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 13px;
+    font-weight: bold;
+    color: #007bff; /* Ariolasoft Blue */
+}
+
+/* Styling the Filter Dropdowns at the top */
+th.platform-col select.filter {
+    width: 90%;
+    font-size: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Column Widths for Info */
+th:nth-child(1) { width: 18%; }
+th:nth-child(2) { width: 6%; text-align: center; }
+th:nth-child(3) { width: 14%; }
+th:nth-child(4) { width: 10%; }
+
+/* Center the content of the dots */
+td:nth-child(n+5) {
+    text-align: center;
+}

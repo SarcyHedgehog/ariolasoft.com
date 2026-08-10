@@ -1,0 +1,722 @@
+{
+  "choplifter": {
+    "slug": "choplifter",
+    "title": "Choplifter!",
+    "filename": "choplifter.html",
+    "year": 1983,
+    "developer": "Brøderbund",
+    "label": "Brøderbund",
+    "image": "images/choplifter.jpg",
+    "description": "Choplifter is a classic video game developed by Dan Gorlin and published by Ariolasoft in 1982. It's a side-scrolling shoot 'em up where players control a helicopter rescuing prisoners of war. With its innovative gameplay and challenging levels, \"Choplifter\" became a hit, showcasing Ariolasoft's commitment to quality and innovation in gaming during the early '80s."
+  },
+  "davidsmidnightmagic": {
+    "slug": "davidsmidnightmagic",
+    "title": "David Midnight's Magic",
+    "filename": "davidsmidnightmagic.html",
+    "year": 1983,
+    "developer": "Brøderbund",
+    "label": "Brøderbund",
+    "image": "images/dmm.png",
+    "description": "David Midnight's Magic is a fantasy-themed pinball video game developed by David Snider and released in 1982. Players control flippers to keep the ball in play, aiming to score points by hitting targets and completing objectives. With its captivating gameplay and vibrant visuals, David Midnight's Magic remains a beloved classic among pinball enthusiasts."
+  },
+  "loderunner": {
+    "slug": "loderunner",
+    "title": "Lode Runner",
+    "filename": "loderunner.html",
+    "year": 1983,
+    "developer": "Brøderbund",
+    "label": "Brøderbund",
+    "image": "images/loderunner.png",
+    "description": "Lode Runner is a classic puzzle-platform video game developed by Douglas E. Smith and released in 1983. Players control a character who must collect all the gold in a level while avoiding enemies and using strategically placed ladders and platforms. Known for its innovative gameplay and level editor, Lode Runner has become an iconic title in the history of video games."
+  },
+  "spelunker": {
+    "slug": "spelunker",
+    "title": "Spelunker",
+    "filename": "spelunker.html",
+    "year": 1983,
+    "developer": "Brøderbund",
+    "label": "Brøderbund",
+    "image": "images/spelunker.png",
+    "description": "Spelunker is a classic platform video game originally released in 1983. Developed by Tim Martin and MicroGraphicImage, Spelunker challenges players to explore caves, avoid traps, and collect treasures. With its challenging gameplay and atmospheric music, Spelunker has become an iconic title in the history of video games, inspiring numerous sequels and remakes."
+  },
+  "archonthelightandthedark": {
+    "slug": "archonthelightandthedark",
+    "title": "Archon: The Light and the Dark",
+    "filename": "archonthelightandthedark.html",
+    "year": 1983,
+    "developer": "Free Fall",
+    "label": "Electronic Arts",
+    "image": "images/archon.png",
+    "description": "Archon: The Light and the Dark is a strategic board game released in 1983 by Free Fall Associates. Combining elements of chess and action games, players control fantasy creatures to conquer the board. Each piece has unique abilities, and battles between opposing pieces occur in real-time combat. With its innovative gameplay and captivating graphics, Archon received critical acclaim and became a classic in the genre of strategy games."
+  },
+  "axisassassin": {
+    "slug": "axisassassin",
+    "title": "Axis Assassin",
+    "filename": "axisassassin.html",
+    "year": 1983,
+    "developer": "Electronic Arts",
+    "label": "Electronic Arts",
+    "image": "images/axisassassin.png",
+    "description": "Axis Assassin is a video game developed and published by Electronic Arts in 1983. In the game, players control a covert operative infiltrating enemy territory to sabotage key installations. With its challenging gameplay and engaging storyline, Axis Assassin became a popular title among gamers during the early '80s."
+  },
+  "hardhatmack": {
+    "slug": "hardhatmack",
+    "title": "Hard Hat Mack",
+    "filename": "hardhatmack.html",
+    "year": 1983,
+    "developer": "Electronic Arts",
+    "label": "Electronic Arts",
+    "image": "images/hardhatmack.png",
+    "description": "Hard Hat Mack is a platformer video game developed and published by Electronic Arts in 1983. Players control a construction worker named Mack who must navigate through hazardous construction sites to complete tasks. Known for its challenging gameplay and colorful graphics, Hard Hat Mack garnered positive reviews from players and critics alike."
+  },
+  "mule": {
+    "slug": "mule",
+    "title": "M.U.L.E.",
+    "filename": "mule.html",
+    "year": 1983,
+    "developer": "Ozark",
+    "label": "Electronic Arts",
+    "image": "images/mule.png",
+    "description": "M.U.L.E. is a multiplayer economic simulation game developed by Ozark Softscape and published by Electronic Arts in 1983. Players compete to develop a colony on an alien planet by managing resources, trading goods, and outsmarting opponents. Renowned for its strategic depth and innovative gameplay, M.U.L.E. remains a classic in the realm of simulation games."
+  },
+  "murderonthezinderneuf": {
+    "slug": "murderonthezinderneuf",
+    "title": "Murder on the Zinderneuf",
+    "filename": "murderonthezinderneuf.html",
+    "year": 1983,
+    "developer": "Free Fall",
+    "label": "Electronic Arts",
+    "image": "images/murderonzinderneuf.png",
+    "description": "Murder on the Zinderneuf is an adventure video game developed by Free Fall Associates and published by Electronic Arts in 1983. Players assume the role of a detective investigating a murder mystery aboard an airship. Known for its immersive storytelling and challenging puzzles, Murder on the Zinderneuf offers a captivating gaming experience."
+  },
+  "oneonone": {
+    "slug": "oneonone",
+    "title": "One-On-One",
+    "filename": "oneonone.html",
+    "year": 1983,
+    "developer": "Electronic Arts",
+    "label": "Electronic Arts",
+    "image": "images/oneonone.png",
+    "description": "One-On-One is a basketball simulation video game developed and published by Electronic Arts in 1983. Featuring a one-on-one basketball match between Larry Bird and Julius Erving, players can experience intense basketball action on their computer screens. With its realistic gameplay and smooth controls, One-On-One became a favorite among sports gaming enthusiasts."
+  },
+  "kaiser": {
+    "slug": "kaiser",
+    "title": "Kaiser",
+    "filename": "kaiser.html",
+    "year": 1984,
+    "developer": "Ariolasoft",
+    "label": "Ariolasoft",
+    "image": "images/kaiser.png",
+    "description": "Kaiser is a strategy video game developed by Ariolasoft and published by Ariolasoft in 1984. Set in the medieval era, players take on the role of a ruler striving to build and expand their empire. With its intricate mechanics and depth of gameplay, Kaiser offers a challenging yet rewarding experience for strategy enthusiasts.\n\n            The game features various aspects of ruling, including managing resources, diplomacy, and military conquests. Players must make strategic decisions to balance their economy, maintain diplomatic relations with neighboring kingdoms, and lead their armies to victory on the battlefield. With its detailed simulation of medieval governance and warfare, Kaiser stands out as a classic in the genre of strategy games."
+  },
+  "valkyrie17": {
+    "slug": "valkyrie17",
+    "title": "Valkyrie 17",
+    "filename": "valkyrie17.html",
+    "year": 1984,
+    "developer": "Ram Jam",
+    "label": "Ariolasoft",
+    "image": "images/valkyrie17.png",
+    "description": "Valkyrie 17 is a sci-fi action-adventure game developed by Ram Jam and published by Ariolasoft in 1984. Set in a dystopian future, players assume the role of a rebel fighter on a mission to overthrow a tyrannical regime. With its immersive storyline and captivating gameplay, Valkyrie 17 offers an unforgettable gaming experience.\n\n            The game features a mix of platforming, puzzle-solving, and combat elements, as players navigate through futuristic environments, uncovering secrets and battling enemies along the way. With its cutting-edge graphics and innovative gameplay mechanics, Valkyrie 17 pushed the boundaries of what was possible in gaming at the time, earning critical acclaim and a dedicated fanbase."
+  },
+  "wizard": {
+    "slug": "wizard",
+    "title": "Wizard",
+    "filename": "wizard.html",
+    "year": 1984,
+    "developer": "Progressive",
+    "label": "Ariolasoft",
+    "image": "images/wizard.png",
+    "description": "Wizard is a fantasy role-playing game developed by Progressive and published by Ariolasoft in 1984. Set in a magical world filled with mythical creatures and ancient mysteries, players embark on a quest to defeat the evil sorcerer and save the realm. With its immersive storytelling and expansive world, Wizard offers an unparalleled gaming experience.\n\n            Players assume the role of a young wizard-in-training, tasked with mastering powerful spells, exploring dangerous dungeons, and recruiting allies to aid in their quest. With its open-ended gameplay and non-linear progression, Wizard provides players with the freedom to explore the world at their own pace and forge their own path to victory."
+  },
+  "karateka": {
+    "slug": "karateka",
+    "title": "Karateka",
+    "filename": "karateka.html",
+    "year": 1984,
+    "developer": "Brøderbund",
+    "label": "Brøderbund",
+    "image": "images/karateka.png",
+    "description": "Karateka is a martial arts action-adventure game developed and published by Broderbund in 1984. Players assume the role of a skilled martial artist on a quest to rescue a princess from an evil warlord's fortress. With its fluid animation and intuitive controls, Karateka offers a unique blend of combat and platforming gameplay.\n\n            The game features a series of challenging levels, where players must defeat enemies using various martial arts techniques while avoiding traps and obstacles. With its cinematic presentation and compelling storyline, Karateka captivated players with its immersive gameplay and memorable characters, earning it a place as a classic in the history of video games."
+  },
+  "raidonbungelingbay": {
+    "slug": "raidonbungelingbay",
+    "title": "Raid on Bungling Bay",
+    "filename": "raidonbungelingbay.html",
+    "year": 1984,
+    "developer": "Brøderbund",
+    "label": "Brøderbund",
+    "image": "images/raidonbunglingbay.png",
+    "description": "Raid on Bungling Bay is a strategic helicopter simulation game developed and published by Broderbund in 1984. Players take on the role of a helicopter pilot tasked with various missions, including transporting supplies, rescuing hostages, and thwarting enemy attacks. With its innovative gameplay and detailed graphics, Raid on Bungling Bay offers a thrilling and immersive gaming experience.\n\n            The game features multiple difficulty levels and a wide range of missions, providing players with plenty of challenges to overcome. With its strategic elements and realistic helicopter physics, Raid on Bungling Bay offers a unique gaming experience that appeals to both casual players and simulation enthusiasts alike."
+  },
+  "thecastlesofdrcreep": {
+    "slug": "thecastlesofdrcreep",
+    "title": "The Castles of Dr. Creep",
+    "filename": "thecastlesofdrcreep.html",
+    "year": 1984,
+    "developer": "Brøderbund",
+    "label": "Brøderbund",
+    "image": "images/thecastlesofdrcreep.png",
+    "description": "Details about thecastlesofdrcreep"
+  },
+  "archoniiadept": {
+    "slug": "archoniiadept",
+    "title": "Archon II: Adept",
+    "filename": "archoniiadept.html",
+    "year": 1984,
+    "developer": "Free Fall",
+    "label": "Electronic Arts",
+    "image": "images/archoniiadept.png",
+    "description": "Details about archoniiadept"
+  },
+  "marblemadness": {
+    "slug": "marblemadness",
+    "title": "Marble Madness",
+    "filename": "marblemadness.html",
+    "year": 1984,
+    "developer": "Atari",
+    "label": "Electronic Arts",
+    "image": "images/marblemadness.png",
+    "description": "Details about marblemadness"
+  },
+  "realmofimpossibility": {
+    "slug": "realmofimpossibility",
+    "title": "Realm of Impossibility",
+    "filename": "realmofimpossibility.html",
+    "year": 1984,
+    "developer": "Electronic Arts",
+    "label": "Electronic Arts",
+    "image": "images/realmofimpossibility.png",
+    "description": "Details about realmofimpossibility"
+  },
+  "skyfox": {
+    "slug": "skyfox",
+    "title": "Skyfox",
+    "filename": "skyfox.html",
+    "year": 1984,
+    "developer": "Ray Tobey",
+    "label": "Electronic Arts",
+    "image": "images/skyfox.png",
+    "description": "Details about skyfox"
+  },
+  "thesevencitiesofgold": {
+    "slug": "thesevencitiesofgold",
+    "title": "The Seven Cities of Gold",
+    "filename": "thesevencitiesofgold.html",
+    "year": 1984,
+    "developer": "Ozark",
+    "label": "Electronic Arts",
+    "image": "images/thesevencitiesofgold.png",
+    "description": "Details about thesevencitiesofgold"
+  },
+  "batalyx": {
+    "slug": "batalyx",
+    "title": "Batalyx",
+    "filename": "batalyx.html",
+    "year": 1985,
+    "developer": "Batlalyx",
+    "label": "Ariolasoft",
+    "image": "images/batalyx.png",
+    "description": "Details about batalyx"
+  },
+  "camelotwarriors": {
+    "slug": "camelotwarriors",
+    "title": "Camelot Warriors",
+    "filename": "camelotwarriors.html",
+    "year": 1985,
+    "developer": "Dinamic Software",
+    "label": "Ariolasoft",
+    "image": "images/camelotwarriors.png",
+    "description": "Details about camelotwarriors"
+  },
+  "degas": {
+    "slug": "degas",
+    "title": "Degas",
+    "filename": "degas.html",
+    "year": 1985,
+    "developer": "Batteries Included",
+    "label": "Ariolasoft",
+    "image": "images/degas.png",
+    "description": "Details about degas"
+  },
+  "floydthedroid": {
+    "slug": "floydthedroid",
+    "title": "Floyd the Droid",
+    "filename": "floydthedroid.html",
+    "year": 1985,
+    "developer": "Radarsoft",
+    "label": "Ariolasoft",
+    "image": "images/floydthedroid.png",
+    "description": "Details about floydthedroid"
+  },
+  "golfconstructionset": {
+    "slug": "golfconstructionset",
+    "title": "Golf Construction Set",
+    "filename": "golfconstructionset.html",
+    "year": 1985,
+    "developer": "Andromeda / Tigress",
+    "label": "Ariolasoft",
+    "image": "images/golfconstructionset.png",
+    "description": "Details about golfconstructionset"
+  },
+  "lapisphilosophorumthephilosophersstone": {
+    "slug": "lapisphilosophorumthephilosophersstone",
+    "title": "Lapis Philosophorum: The Philosophers Stone",
+    "filename": "lapisphilosophorumthephilosophersstone.html",
+    "year": 1985,
+    "developer": "pH Soft",
+    "label": "Ariolasoft",
+    "image": "images/lapisphilosophorumthephilosophersstone.png",
+    "description": "Details about lapisphilosophorumthephilosophersstone"
+  },
+  "mapsbritain": {
+    "slug": "mapsbritain",
+    "title": "Maps Britain",
+    "filename": "mapsbritain.html",
+    "year": 1985,
+    "developer": "Radarsoft",
+    "label": "Ariolasoft",
+    "image": "images/mapsbritain.png",
+    "description": "Details about mapsbritain"
+  },
+  "panzadrome": {
+    "slug": "panzadrome",
+    "title": "Panzadrome",
+    "filename": "panzadrome.html",
+    "year": 1985,
+    "developer": "RamJam Corp",
+    "label": "Ariolasoft",
+    "image": "images/panzadrome.png",
+    "description": "Details about panzadrome"
+  },
+  "paperclip": {
+    "slug": "paperclip",
+    "title": "Paperclip",
+    "filename": "paperclip.html",
+    "year": 1985,
+    "developer": "Batteries Included",
+    "label": "Ariolasoft",
+    "image": "images/paperclip.png",
+    "description": "Details about paperclip"
+  },
+  "scarabaeus": {
+    "slug": "scarabaeus",
+    "title": "Scarabaeus",
+    "filename": "scarabaeus.html",
+    "year": 1985,
+    "developer": "Andromeda",
+    "label": "Ariolasoft",
+    "image": "images/scarabaeus.png",
+    "description": "Details about scarabaeus"
+  },
+  "thefourthprotocol": {
+    "slug": "thefourthprotocol",
+    "title": "The Fourth Protocol",
+    "filename": "thefourthprotocol.html",
+    "year": 1985,
+    "developer": "Electronic Pencil Co",
+    "label": "Ariolasoft",
+    "image": "images/thefourthprotocol.png",
+    "description": "Details about thefourthprotocol"
+  },
+  "think": {
+    "slug": "think",
+    "title": "Think!",
+    "filename": "think.html",
+    "year": 1985,
+    "developer": "Tigress",
+    "label": "Ariolasoft",
+    "image": "images/think.png",
+    "description": "Details about think"
+  },
+  "wildwest": {
+    "slug": "wildwest",
+    "title": "Wild West",
+    "filename": "wildwest.html",
+    "year": 1985,
+    "developer": "Andromeda",
+    "label": "Ariolasoft",
+    "image": "images/wildwest.png",
+    "description": "Details about wildwest"
+  },
+  "adventureconstructionset": {
+    "slug": "adventureconstructionset",
+    "title": "Adventure Construction Set",
+    "filename": "adventureconstructionset.html",
+    "year": 1985,
+    "developer": "Electronic Arts",
+    "label": "Electronic Arts",
+    "image": "images/adventureconstructionset.png",
+    "description": "Details about adventureconstructionset"
+  },
+  "racingdestructionset": {
+    "slug": "racingdestructionset",
+    "title": "Racing Destruction Set",
+    "filename": "racingdestructionset.html",
+    "year": 1985,
+    "developer": "Electronic Arts",
+    "label": "Electronic Arts",
+    "image": "images/racingdestructionset.png",
+    "description": "Details about racingdestructionset"
+  },
+  "thebardstale": {
+    "slug": "thebardstale",
+    "title": "The Bard's Tale",
+    "filename": "thebardstale.html",
+    "year": 1985,
+    "developer": "Interplay",
+    "label": "Electronic Arts",
+    "image": "images/thebardstale.png",
+    "description": "Details about thebardstale"
+  },
+  "theytoleamillion": {
+    "slug": "theytoleamillion",
+    "title": "They $tole a Million",
+    "filename": "theytoleamillion.html",
+    "year": 1986,
+    "developer": "Tigress",
+    "label": "39 Steps",
+    "image": "images/theytoleamillion.png",
+    "description": ""
+  },
+  "degaselite": {
+    "slug": "degaselite",
+    "title": "Degas Elite",
+    "filename": "degaselite.html",
+    "year": 1986,
+    "developer": "Batteries Included",
+    "label": "Ariolasoft",
+    "image": "images/degaselite.png",
+    "description": "Details about degaselite"
+  },
+  "hyperforce": {
+    "slug": "hyperforce",
+    "title": "Hyperforce",
+    "filename": "hyperforce.html",
+    "year": 1986,
+    "developer": "Tony Takoushi",
+    "label": "Ariolasoft",
+    "image": "images/hyperforce.png",
+    "description": "Details about hyperforce"
+  },
+  "sepulcri": {
+    "slug": "sepulcri",
+    "title": "Sepulcri",
+    "filename": "sepulcri.html",
+    "year": 1986,
+    "developer": "Chris Sawyer",
+    "label": "Ariolasoft",
+    "image": "images/sepulcri.png",
+    "description": "Details about sepulcri"
+  },
+  "starburstawalkonthewildside": {
+    "slug": "starburstawalkonthewildside",
+    "title": "Starburst: A Walk on the Wild Side",
+    "filename": "starburstawalkonthewildside.html",
+    "year": 1986,
+    "developer": "Tony Takoushi",
+    "label": "Ariolasoft",
+    "image": "images/starburstawalkonthewildside.png",
+    "description": "Details about starburstawalkonthewildside"
+  },
+  "starshipandromeda": {
+    "slug": "starshipandromeda",
+    "title": "Starship Andromeda",
+    "filename": "starshipandromeda.html",
+    "year": 1986,
+    "developer": "Andromeda",
+    "label": "Ariolasoft",
+    "image": "images/starshipandromeda.png",
+    "description": "Details about starshipandromeda"
+  },
+  "thebigdealfloyd2": {
+    "slug": "thebigdealfloyd2",
+    "title": "The Big Deal (Floyd 2)",
+    "filename": "thebigdealfloyd2.html",
+    "year": 1986,
+    "developer": "Radarsoft",
+    "label": "Ariolasoft",
+    "image": "images/thebigdealfloyd2.png",
+    "description": "Details about thebigdealfloyd2"
+  },
+  "theterrorsoftrantoss": {
+    "slug": "theterrorsoftrantoss",
+    "title": "The Terrors of Trantoss",
+    "filename": "theterrorsoftrantoss.html",
+    "year": 1986,
+    "developer": "RamJam Corp",
+    "label": "Ariolasoft",
+    "image": "images/theterrorsoftrantoss.png",
+    "description": "Details about theterrorsoftrantoss"
+  },
+  "toadrunner": {
+    "slug": "toadrunner",
+    "title": "Toadrunner",
+    "filename": "toadrunner.html",
+    "year": 1986,
+    "developer": "Dave Harper",
+    "label": "Ariolasoft",
+    "image": "images/toadrunner.png",
+    "description": "Details about toadrunner"
+  },
+  "tujad": {
+    "slug": "tujad",
+    "title": "TUJAD",
+    "filename": "tujad.html",
+    "year": 1986,
+    "developer": "Orpheus",
+    "label": "Ariolasoft",
+    "image": "images/tujad.png",
+    "description": "Details about tujad"
+  },
+  "wernerletsgo": {
+    "slug": "wernerletsgo",
+    "title": "Werner: Let's go!",
+    "filename": "wernerletsgo.html",
+    "year": 1986,
+    "developer": "Semmel Verlach",
+    "label": "Ariolasoft",
+    "image": "images/wernerletsgo.png",
+    "description": "Details about wernerletsgo"
+  },
+  "matrixandlaserzone": {
+    "slug": "matrixandlaserzone",
+    "title": "Matrix and Laserzone",
+    "filename": "matrixandlaserzone.html",
+    "year": 1986,
+    "developer": "LLamasoft",
+    "label": "Ariolasoft",
+    "image": "images/matrixandlaserzone.png",
+    "description": "Details about matrixandlaserzone"
+  },
+  "arcticfox": {
+    "slug": "arcticfox",
+    "title": "Arcticfox",
+    "filename": "arcticfox.html",
+    "year": 1986,
+    "developer": "Dynamix",
+    "label": "Electronic Arts",
+    "image": "images/arcticfox.png",
+    "description": "Details about arcticfox"
+  },
+  "deactivators": {
+    "slug": "deactivators",
+    "title": "Deactivators",
+    "filename": "deactivators.html",
+    "year": 1986,
+    "developer": "Tigress",
+    "label": "Reaktor",
+    "image": "images/deactivators.png",
+    "description": "Details about deactivators"
+  },
+  "brideoffrankenstein": {
+    "slug": "brideoffrankenstein",
+    "title": "Bride of Frankenstein",
+    "filename": "brideoffrankenstein.html",
+    "year": 1987,
+    "developer": "Viz Design",
+    "label": "39 Steps",
+    "image": "images/brideoffrankenstein.png",
+    "description": "Details about brideoffrankenstein"
+  },
+  "lendeightonsblitzkriegthegame": {
+    "slug": "lendeightonsblitzkriegthegame",
+    "title": "Len Deighton's Blitzkrieg: The Game",
+    "filename": "lendeightonsblitzkriegthegame.html",
+    "year": 1987,
+    "developer": "Gary Yorke",
+    "label": "39 Steps",
+    "image": "images/lendeightonsblitzkriegthegame.png",
+    "description": ""
+  },
+  "triaxos": {
+    "slug": "triaxos",
+    "title": "Triaxos",
+    "filename": "triaxos.html",
+    "year": 1987,
+    "developer": "Pennsoft",
+    "label": "39 Steps",
+    "image": "images/triaxos.png",
+    "description": "Details about triaxos"
+  },
+  "mrsmop": {
+    "slug": "mrsmop",
+    "title": "Mrs. Mop",
+    "filename": "mrsmop.html",
+    "year": 1987,
+    "developer": "John Stevenson",
+    "label": "Ariolasoft",
+    "image": "images/mrsmop.png",
+    "description": "Details about mrsmop"
+  },
+  "voidrunnerhellgate": {
+    "slug": "voidrunnerhellgate",
+    "title": "Voidrunner + Hellgate",
+    "filename": "voidrunnerhellgate.html",
+    "year": 1987,
+    "developer": "LLamasoft",
+    "label": "Ariolasoft",
+    "image": "images/voidrunnerhellgate.png",
+    "description": "Details about voidrunnerhellgate"
+  },
+  "werewolvesoflondon": {
+    "slug": "werewolvesoflondon",
+    "title": "Werewolves of London",
+    "filename": "werewolvesoflondon.html",
+    "year": 1987,
+    "developer": "Viz Design",
+    "label": "Ariolasoft",
+    "image": "images/werewolvesoflondon.png",
+    "description": "Details about werewolvesoflondon"
+  },
+  "killerring": {
+    "slug": "killerring",
+    "title": "Killer Ring",
+    "filename": "killerring.html",
+    "year": 1987,
+    "developer": "Byte Engineers",
+    "label": "Reaktor",
+    "image": "images/killerring.png",
+    "description": "Details about killerring"
+  },
+  "centurionspowerxtreme": {
+    "slug": "centurionspowerxtreme",
+    "title": "Centurions: Power X Treme",
+    "filename": "centurionspowerxtreme.html",
+    "year": 1987,
+    "developer": "Byte Engineers",
+    "label": "Reaktor",
+    "image": "images/centurionspowerxtreme.png",
+    "description": "Details about centurionspowerxtreme"
+  },
+  "challengeofthegobots": {
+    "slug": "challengeofthegobots",
+    "title": "Challenge of the Gobots",
+    "filename": "challengeofthegobots.html",
+    "year": 1987,
+    "developer": "Byte Engineers",
+    "label": "Reaktor",
+    "image": "images/challengeofthegobots.png",
+    "description": "Details about challengeofthegobots"
+  },
+  "deadringer": {
+    "slug": "deadringer",
+    "title": "Deadringer",
+    "filename": "deadringer.html",
+    "year": 1987,
+    "developer": "Ariolasoft",
+    "label": "Reaktor",
+    "image": "images/deadringer.png",
+    "description": "Details about deadringer"
+  },
+  "mountiemicksdeathride": {
+    "slug": "mountiemicksdeathride",
+    "title": "Mountie Mick's Deathride",
+    "filename": "mountiemicksdeathride.html",
+    "year": 1987,
+    "developer": "Ariolasoft",
+    "label": "Reaktor",
+    "image": "images/mountiemicksdeathride.png",
+    "description": "Details about mountiemicksdeathride"
+  },
+  "outofthisworld": {
+    "slug": "outofthisworld",
+    "title": "Out of this World",
+    "filename": "outofthisworld.html",
+    "year": 1987,
+    "developer": "Bettertech",
+    "label": "Reaktor",
+    "image": "images/outofthisworld.png",
+    "description": "Details about outofthisworld"
+  },
+  "pileup": {
+    "slug": "pileup",
+    "title": "Pile-Up!",
+    "filename": "pileup.html",
+    "year": 1987,
+    "developer": "Christop Shulte Vennbur",
+    "label": "Reaktor",
+    "image": "images/pileup.png",
+    "description": "Details about pileup"
+  },
+  "starfox": {
+    "slug": "starfox",
+    "title": "Starfox",
+    "filename": "starfox.html",
+    "year": 1987,
+    "developer": "Realtime Games",
+    "label": "Reaktor",
+    "image": "images/starfox.png",
+    "description": "Details about starfox"
+  },
+  "zarjaz": {
+    "slug": "zarjaz",
+    "title": "Zarjaz",
+    "filename": "zarjaz.html",
+    "year": 1987,
+    "developer": "Daryl Etherington",
+    "label": "Reaktor",
+    "image": "images/zarjaz.png",
+    "description": "Details about zarjaz"
+  },
+  "deathscape": {
+    "slug": "deathscape",
+    "title": "Deathscape",
+    "filename": "deathscape.html",
+    "year": 1987,
+    "developer": "Starlight",
+    "label": "Starlight",
+    "image": "images/deathscape.png",
+    "description": "Details about deathscape"
+  },
+  "dogfight2187": {
+    "slug": "dogfight2187",
+    "title": "Dogfight 2187",
+    "filename": "dogfight2187.html",
+    "year": 1987,
+    "developer": "Starlight",
+    "label": "Starlight",
+    "image": "images/dogfight2187.png",
+    "description": "Details about dogfight2187"
+  },
+  "greyfelllegendofnorman": {
+    "slug": "greyfelllegendofnorman",
+    "title": "Greyfell: Legend of Norman",
+    "filename": "greyfelllegendofnorman.html",
+    "year": 1987,
+    "developer": "Starlight",
+    "label": "Starlight",
+    "image": "images/greyfelllegendofnorman.png",
+    "description": "Details about greyfelllegendofnorman"
+  },
+  "hybrid": {
+    "slug": "hybrid",
+    "title": "Hybrid",
+    "filename": "hybrid.html",
+    "year": 1987,
+    "developer": "Starlight",
+    "label": "Starlight",
+    "image": "images/hybrid.png",
+    "description": "Details about hybrid"
+  },
+  "redled": {
+    "slug": "redled",
+    "title": "Red L.E.D.",
+    "filename": "redled.html",
+    "year": 1987,
+    "developer": "Starlight",
+    "label": "Starlight",
+    "image": "images/redled.png",
+    "description": "Details about redled"
+  },
+  "ziggurat": {
+    "slug": "ziggurat",
+    "title": "Ziggurat",
+    "filename": "ziggurat.html",
+    "year": 1988,
+    "developer": "Chris Sawyer",
+    "label": "Ariolasoft",
+    "image": "images/ziggurat.png",
+    "description": "Details about ziggurat"
+  }
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Games and Programs Published by Ariolasoft UK</title>
+<link href="styles.css" rel="stylesheet">
+<link rel="stylesheet" href="[suspicious link removed]">
+<link rel="stylesheet" href="tableStyles.css">
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://www.google.com/search?q=https://cdn.jsdelivr.net/npm/select2%404.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="filterAndPopup.js"></script>
+</head>
+<body>
+
+<div id="header">
+<h1 id="Heading1">Ariolasoft UK</h1>
+</div>
+
+<h2>Games and Programs Published by Ariolasoft UK</h2>
+
+<table id="myTable">
+<thead>
+<tr>
+<th>Title</th>
+<th>Year
+
+
+<select class="filter" onchange="filterTable(0)">
+<option value="all">All</option>
+<option value="1983">1983</option>
+<option value="1984">1984</option>
+<option value="1985">1985</option>
+<option value="1986">1986</option>
+<option value="1987">1987</option>
+<option value="1988">1988</option>
+</select>
+</th>
+<th>Developer
+
+
+<select class="filter" onchange="filterTable(1)">
+<option value="all">All</option>
+<option value="Andromeda / Tigress">Andromeda / Tigress</option>
+<option value="Ariolasoft">Ariolasoft</option>
+<option value="Atari">Atari</option>
+<option value="Batteries Included">Batteries Included</option>
+<option value="Bettertech">Bettertech</option>
+<option value="Brøderbund">Brøderbund</option>
+<option value="Byte Engineers">Byte Engineers</option>
+<option value="Chris Sawyer">Chris Sawyer</option>
+<option value="Dave Harper">Dave Harper</option>
+<option value="Dinamic Software">Dinamic Software</option>
+<option value="Electronic Arts">Electronic Arts</option>
+<option value="Electronic Pencil Co">Electronic Pencil Co</option>
+<option value="Gary Yorke">Gary Yorke</option>
+<option value="LLamasoft">LLamasoft</option>
+<option value="Radarsoft">Radarsoft</option>
+<option value="Ram Jam">Ram Jam</option>
+<option value="Realtime Games">Realtime Games</option>
+<option value="Starlight">Starlight</option>
+<option value="Tigress">Tigress</option>
+<option value="Viz Design">Viz Design</option>
+</select>
+</th>
+<th>Label
+
+
+<select class="filter select2" onchange="filterTable(2)">
+<option value="all">All</option>
+<option value="Ariolasoft">Ariolasoft</option>
+<option value="39 Steps">39 Steps</option>
+<option value="Reaktor">Reaktor</option>
+<option value="Starlight">Starlight</option>
+<option value="Electronic Arts">Electronic Arts</option>
+<option value="Brøderbund">Brøderbund</option>
+</select>
+</th>
+
+        <th class="platform-col">
+            <select class="filter" onchange="filterTable(3)"><option value="all">All</option><option value="yes">Yes</option><option value="no">No</option></select>
+            <div class="vertical-text">C64</div>
+        </th>
+        <th class="platform-col">
+            <select class="filter" onchange="filterTable(4)"><option value="all">All</option><option value="yes">Yes</option><option value="no">No</option></select>
+            <div class="vertical-text">CPC</div>
+        </th>
+        <th class="platform-col">
+            <select class="filter" onchange="filterTable(5)"><option value="all">All</option><option value="yes">Yes</option><option value="no">No</option></select>
+            <div class="vertical-text">Spectrum</div>
+        </th>
+        <th class="platform-col">
+            <select class="filter" onchange="filterTable(6)"><option value="all">All</option><option value="yes">Yes</option><option value="no">No</option></select>
+            <div class="vertical-text">Atari</div>
+        </th>
+        <th class="platform-col">
+            <select class="filter" onchange="filterTable(7)"><option value="all">All</option><option value="yes">Yes</option><option value="no">No</option></select>
+            <div class="vertical-text">MSX</div>
+        </th>
+        <th class="platform-col">
+            <select class="filter" onchange="filterTable(8)"><option value="all">All</option><option value="yes">Yes</option><option value="no">No</option></select>
+            <div class="vertical-text">ST</div>
+        </th>
+        <th class="platform-col">
+            <select class="filter" onchange="filterTable(9)"><option value="all">All</option><option value="yes">Yes</option><option value="no">No</option></select>
+            <div class="vertical-text">Amiga</div>
+        </th>
+        <th class="platform-col">
+            <select class="filter" onchange="filterTable(10)"><option value="all">All</option><option value="yes">Yes</option><option value="no">No</option></select>
+            <div class="vertical-text">Apple II</div>
+        </th>
+        <th class="platform-col">
+            <select class="filter" onchange="filterTable(11)"><option value="all">All</option><option value="yes">Yes</option><option value="no">No</option></select>
+            <div class="vertical-text">PCW</div>
+        </th>
+        <th class="platform-col">
+            <select class="filter" onchange="filterTable(12)"><option value="all">All</option><option value="yes">Yes</option><option value="no">No</option></select>
+            <div class="vertical-text">C16</div>
+        </th>
+    </tr>
+</thead>
+<tbody>
+    <tr><td><a href="#" onclick="openPopup('titles/batalyx.html')">Batalyx</a></td><td>1985</td><td>Batlalyx</td><td>Ariolasoft</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/bride.html')">Bride of Frankenstein</a></td><td>1987</td><td>Viz Design</td><td>39 Steps</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/camelot.html')">Camelot Warriors</a></td><td>1985</td><td>Dinamic Software</td><td>Ariolasoft</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/centurions.html')">Centurions: Power X Treme</a></td><td>1987</td><td>Byte Engineers</td><td>Reaktor</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/gobots.html')">Challenge of the Gobots</a></td><td>1987</td><td>Tony Crowther</td><td>Reaktor</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/deadringer.html')">Deadringer</a></td><td>1987</td><td>Ariolasoft</td><td>Reaktor</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/deactivators.html')">Deactivators</a></td><td>1986</td><td>Tigress</td><td>Reaktor</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/deathscape.html')">Deathscape</a></td><td>1987</td><td>Starlight</td><td>Starlight</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/degas.html')">Degas</a></td><td>1985</td><td>Batteries Included</td><td>Ariolasoft</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/degas_elite.html')">Degas Elite</a></td><td>1986</td><td>Batteries Included</td><td>Ariolasoft</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>Yes</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/dogfight.html')">Dogfight 2187</a></td><td>1987</td><td>Starlight</td><td>Starlight</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/floyd.html')">Floyd the Droid</a></td><td>1985</td><td>Radarsoft</td><td>Ariolasoft</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/golf.html')">Golf Construction Set</a></td><td>1985</td><td>Andromeda / Tigress</td><td>Ariolasoft</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/greyfell.html')">Greyfell: Legend of Norman</a></td><td>1987</td><td>Starlight</td><td>Starlight</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/hybrid.html')">Hybrid</a></td><td>1987</td><td>Starlight</td><td>Starlight</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/hyperforce.html')">Hyperforce</a></td><td>1986</td><td>Tony Takoushi</td><td>Ariolasoft</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>Yes</td><td>No</td><td>No</td><td>Yes</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/kaiser.html')">Kaiser</a></td><td>1984</td><td>Ariolasoft</td><td>Ariolasoft</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/killer_ring.html')">Killer Ring</a></td><td>1987</td><td>Tony Crowther</td><td>Reaktor</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/lapis.html')">Lapis Philosophorum</a></td><td>1985</td><td>pH Soft</td><td>Ariolasoft</td><td>Yes</td><td>No</td><td>No</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/blitzkrieg.html')">Len Deighton's Blitzkrieg</a></td><td>1987</td><td>Gary Yorke</td><td>39 Steps</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/maps.html')">Maps Britain</a></td><td>1985</td><td>Radarsoft</td><td>Ariolasoft</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/matrix.html')">Matrix and Laserzone</a></td><td>1986</td><td>LLamasoft</td><td>Ariolasoft</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>Yes</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/mountie.html')">Mountie Mick's Deathride</a></td><td>1987</td><td>Ariolasoft</td><td>Reaktor</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/mrs_mop.html')">Mrs. Mop</a></td><td>1987</td><td>John Stevenson</td><td>Ariolasoft</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/out_world.html')">Out of this World</a></td><td>1987</td><td>Bettertech</td><td>Reaktor</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/panzadrome.html')">Panzadrome</a></td><td>1985</td><td>RamJam Corp</td><td>Ariolasoft</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/paperclip.html')">Paperclip</a></td><td>1985</td><td>Batteries Included</td><td>Ariolasoft</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/pile_up.html')">Pile-Up!</a></td><td>1987</td><td>Christop Shulte Vennbur</td><td>Reaktor</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/red_led.html')">Red L.E.D.</a></td><td>1987</td><td>Starlight</td><td>Starlight</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/scarabaeus.html')">Scarabaeus</a></td><td>1985</td><td>Andromeda</td><td>Ariolasoft</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/sepulcri.html')">Sepulcri</a></td><td>1986</td><td>Chris Sawyer</td><td>Ariolasoft</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/starburst.html')">Starburst</a></td><td>1986</td><td>Tony Takoushi</td><td>Ariolasoft</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>Yes</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/starfox.html')">Starfox</a></td><td>1987</td><td>Realtime Games</td><td>Reaktor</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/starship.html')">Starship Andromeda</a></td><td>1986</td><td>Andromeda</td><td>Ariolasoft</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/big_deal.html')">The Big Deal (Floyd 2)</a></td><td>1986</td><td>Radarsoft</td><td>Ariolasoft</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>Yes</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/fourth_protocol.html')">The Fourth Protocol</a></td><td>1985</td><td>Electronic Pencil Co</td><td>Ariolasoft</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>Yes</td><td>No</td><td>No</td><td>Yes</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/trantoss.html')">The Terrors of Trantoss</a></td><td>1986</td><td>RamJam Corp</td><td>Ariolasoft</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/million.html')">They Stole a Million</a></td><td>1986</td><td>Tigress</td><td>39 Steps</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/think.html')">Think!</a></td><td>1985</td><td>Tigress</td><td>Ariolasoft</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/toadrunner.html')">Toadrunner</a></td><td>1986</td><td>Dave Harper</td><td>Ariolasoft</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/triaxos.html')">Triaxos</a></td><td>1987</td><td>Pennsoft</td><td>39 Steps</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/tujad.html')">TUJAD</a></td><td>1986</td><td>Orpheus</td><td>Ariolasoft</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/valkyrie.html')">Valkyrie 17</a></td><td>1984</td><td>Ram Jam</td><td>Ariolasoft</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/vermeer.html')">Vermeer</a></td><td>1987</td><td>Ralf Glau / Ariolasoft</td><td>Ariolasoft</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/hellgate.html')">Voidrunner + Hellgate</a></td><td>1987</td><td>LLamasoft</td><td>Ariolasoft</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>Yes</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/werewolves.html')">Werewolves of London</a></td><td>1987</td><td>Viz Design</td><td>Ariolasoft</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/werner.html')">Werner: Let's go!</a></td><td>1986</td><td>Semmel Verlach</td><td>Ariolasoft</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/wildwest.html')">Wild West</a></td><td>1985</td><td>Andromeda</td><td>Ariolasoft</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/wizard.html')">Wizard</a></td><td>1984</td><td>Progressive</td><td>Ariolasoft</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/zarjaz.html')">Zarjaz</a></td><td>1987</td><td>Daryl Etherington</td><td>Reaktor</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+    <tr><td><a href="#" onclick="openPopup('titles/ziggurat.html')">Ziggurat</a></td><td>1988</td><td>Chris Sawyer</td><td>Ariolasoft</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+</tbody>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #06090f; /* Very dark blue */
+    color: #fff; /* White text */
+    font-size: 16px; /* Default text size */
+    margin: 0;
+    padding: 0;
+    line-height: 1.5; /* Increase line height for better readability */
+}
+
+/* Title header styles */
+.title-header {
+    background-color: #003366; /* Mid blue */
+    color: #000; /* Black text */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-title {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: left; /* Left justify the main title */
+}
+
+.logo {
+    height: auto; /* Allow the logo to adjust its height according to its content */
+    width: 40px; /* Adjust the width of the logo */
+}
+
+/* Main content styles */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh; /* Minimum height of the viewport */
+    text-align: center; /* Center justify the content */
+}
+
+.company-info {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.company-name {
+    font-size: 30px; /* Size 30 for company name */
+    margin: 0;
+    padding: 0;
+}
+
+.company-description {
+    margin: 0;
+    padding: 0;
+}
+
+.about-section {
+    width: 100%;
+    max-width: 800px; /* Maximum width of 800px for the text box */
+    margin: 50px auto 0 auto; /* Center the "About" section vertically and horizontally */
+    padding: 0 20px; /* Add padding to the sides for better spacing */
+    text-align: center; /* Center justify the content */
+}
+
+.about-section h3 {
+    font-size: 25px; /* Size 25 for About heading */
+    margin: 0;
+    padding: 0;
+}
+
+.about-text {
+    font-size: 14px; /* Size 14 for About text */
+    margin: 20px 0; /* Add margin for better spacing */
+    padding: 0;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .title-header {
+        padding-top: 50px; /* Increase padding at the top */
+    }
+
+    .company-info {
+        margin-bottom: 10px; /* Decrease margin for smaller screens */
+    }
+
+    .about-section {
+        margin-top: 30px; /* Adjust margin at the top */
+    }
+}
+
+/* Contact section styles */
+.contact-section {
+    width: 100%;
+    max-width: 800px; /* Maximum width of 800px for the contact section */
+    margin: 50px auto 0 auto; /* Center the contact section vertically and horizontally */
+    padding: 0 20px; /* Add padding to the sides for better spacing */
+    text-align: center; /* Center justify the content */
+}
+
+.contact-title {
+    margin-bottom: 10px; /* Add some space between the title and the content */
+}
+
+.contact-content {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center align items vertically */
+    justify-content: center; /* Center align items horizontally */
+}
+
+.contact-content h3 {
+    margin-right: 10px; /* Add margin to separate the icon from the text */
+}
+
+.contact-link {
+    color: white; /* White text color for links */
+    font-weight: bold; /* Bold font weight for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.contact-link:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Link styles */
+a {
+    color: white; /* Set link color to white */
+    font-weight: bold; /* Set link font weight to bold */
+    text-decoration: none; /* Remove default underline */
+}
+
+/* Visited link styles */
+a:visited {
+    color: white; /* Set visited link color to white */
+}
+
+/* Hover styles */
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
