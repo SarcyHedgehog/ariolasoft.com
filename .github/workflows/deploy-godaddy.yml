@@ -28,6 +28,9 @@ jobs:
             **/.vscode/**
             **/node_modules/**
             README.md
+            ftpquota
+            *.old
+            test.html
             archive/**
             source-data/**
             tools/**
