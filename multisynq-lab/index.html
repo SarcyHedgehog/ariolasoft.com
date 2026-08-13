@@ -10,6 +10,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="lab.css">
+  <style>
+    .cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .musicbox { --accent: var(--amber); }
+    @media (max-width: 760px) { .cards { grid-template-columns: 1fr; } }
+  </style>
 </head>
 <body>
   <main>
@@ -38,23 +43,23 @@
         </article>
 
         <article class="card blaster">
-          <div class="card-top"><span class="number">02</span><span class="status staging">STAGING</span></div>
+          <div class="card-top"><span class="number">02</span><span class="status live">LIVE</span></div>
           <div class="glyph" aria-hidden="true">△</div>
           <small>SHARED ARCADE PATROL</small><h3>Multiblaster</h3>
           <p>A restored Asteroids-style experiment expanded into five waves, six pilots, spectators, special asteroids, lives, combos and a proper results screen.</p>
           <dl><div><dt>Origin</dt><dd>Croquet → Multisynq</dd></div><div><dt>Network</dt><dd>Photon Realtime</dd></div></dl>
           <div class="actions"><a class="play" href="multiblaster/">PLAY ↗</a><a class="source" href="https://github.com/SarcyHedgehog/multiblaster" target="_blank" rel="noopener">GITHUB ↗</a></div>
         </article>
-      </div>
-    </section>
 
-    <section class="workbench" aria-labelledby="workbench-title">
-      <div class="section-title"><span>02</span><div><small>ON THE WORKBENCH</small><h2 id="workbench-title">Coming back to life</h2></div></div>
-      <article class="work-row">
-        <div class="work-icon">♫</div><div class="work-copy"><small>COLLABORATIVE SEQUENCER</small><h3>Music Box</h3><p>The draggable-note Croquet React demo is becoming a shared 16-step instrument with tempo, swing, timbres, player colours and presets.</p></div>
-        <span class="status building">READY FOR APP ID</span>
-        <a class="source" href="https://github.com/SarcyHedgehog/musicbox" target="_blank" rel="noopener">GITHUB ↗</a>
-      </article>
+        <article class="card musicbox">
+          <div class="card-top"><span class="number">03</span><span class="status live">LIVE</span></div>
+          <div class="glyph" aria-hidden="true">♫</div>
+          <small>COLLABORATIVE SEQUENCER</small><h3>Music Box</h3>
+          <p>A shared 16-step instrument rebuilt from the Croquet React demo, with synchronized notes, tempo, swing, timbres, player colours and presets.</p>
+          <dl><div><dt>Origin</dt><dd>Croquet</dd></div><div><dt>Network</dt><dd>Photon Realtime</dd></div></dl>
+          <div class="actions"><a class="play" href="musicbox/">PLAY ↗</a><a class="source" href="https://github.com/SarcyHedgehog/musicbox" target="_blank" rel="noopener">GITHUB ↗</a></div>
+        </article>
+      </div>
     </section>
 
     <footer><span>SARCASTIC HEDGEHOG · MULTISYNQ LAB</span><span>RESTORED WITH RESPECT, CURIOSITY AND FAR TOO LITTLE SLEEP.</span></footer>
