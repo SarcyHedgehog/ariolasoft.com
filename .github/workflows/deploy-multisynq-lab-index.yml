@@ -1,0 +1,27 @@
+name: Deploy Multisynq Lab landing page
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Stage landing page only
+        run: |
+          mkdir -p "$RUNNER_TEMP/lab-index"
+          cp multisynq-lab/index.html multisynq-lab/lab.css "$RUNNER_TEMP/lab-index/"
+      - name: Deploy protected lab index over FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+        with:
+          server: ${{ secrets.GODADDY_FTP_SERVER }}
+          username: ${{ secrets.GODADDY_FTP_USERNAME }}
+          password: ${{ secrets.GODADDY_FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          local-dir: ${{ runner.temp }}/lab-index/
+          server-dir: /multisynq-lab/
