@@ -57,6 +57,36 @@ body {
     border: 1px solid #cccccc;
     border-radius: 5px;
 }
+
+.detail-box {
+    overflow-y: auto;
+    line-height: 1.45;
+}
+
+.detail-box p:first-child {
+    margin-top: 0;
+}
+
+.play-link {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 12px 18px;
+    border: 1px solid #5fd7ff;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #173f67;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.play-link:visited {
+    color: #ffffff;
+}
+
+.play-link:hover,
+.play-link:focus {
+    background: #235b90;
+}
 /* Add this style to titles.css to target the image */
 .card img {
     background-color: black; /* Set background color of the image container to black */

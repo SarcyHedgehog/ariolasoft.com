@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#06070d">
+  <title>Out of This World — Bettertech restoration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="app">
+    <section id="loadingScreen" class="screen active archival-screen">
+      <div class="archive-frame">
+        <canvas id="loadingCanvas" width="256" height="192" aria-label="Original ZX Spectrum loading screen"></canvas>
+      </div>
+      <p class="archive-caption">Original 1987 loading screen · ZX Spectrum</p>
+      <button class="primary" data-screen="titleScreen">ENTER THE OTHER WORLD</button>
+    </section>
+
+    <section id="titleScreen" class="screen title-screen">
+      <div class="stars"></div>
+      <header class="hero">
+        <p class="eyebrow">BETTERTECH LTD · REAKTÖR · 1987</p>
+        <h1><span>OUT OF THIS</span><strong>WORLD</strong></h1>
+        <p class="tagline">Fight to survive in a hostile alien world.</p>
+      </header>
+      <nav class="menu" aria-label="Main menu">
+        <button id="startGame" class="primary">SOLO FLIGHT</button>
+        <button data-screen="rulesScreen">FLIGHT BRIEFING &amp; RULES</button>
+        <button data-screen="creditsScreen">ORIGINAL CREDITS</button>
+        <button data-screen="archiveScreen">RESTORATION ARCHIVE</button>
+      </nav>
+      <footer>Browser restoration · Original single-player design</footer>
+    </section>
+
+    <section id="rulesScreen" class="screen document-screen">
+      <article>
+        <button class="back" data-screen="titleScreen">← TITLE</button>
+        <p class="eyebrow">AIR VICE-MARSHAL OVERSHOT · FLIGHT BRIEFING</p>
+        <h2>THE RP2-16</h2>
+        <p>“Suddenly, the jet plunged into a sea of flashing lights — Chuck gasped with horror — he had entered the Other World…”</p>
+        <p>You are Captain Chuck Harrison, test pilot of the experimental RP2-16. A Quark Cannon burst at 0.9 light speed has carried you into a hostile alien world.</p>
+        <div class="rules-grid">
+          <section><h3>OBJECTIVE</h3><p>Destroy enemy craft until <b>EXIT</b> appears, then shoot it. Defeat the end-of-world Guardian to reach the next of eight worlds.</p></section>
+          <section><h3>POWER PODS</h3><p>Collect matching coloured pods to charge weapons. The pod that completes a charge activates it. Weapon energy drains as you fire.</p></section>
+          <section><h3>WEAPONS</h3><p>Quark Cannon; 2, 3, 4 and 7 Way Shot; Wide Beam; Laser. Other pods grant an extra life or increase speed.</p></section>
+          <section><h3>CONTROLS</h3><p>Arrow keys to fly · Space to fire · Enter to pause · M toggles music · S toggles effects. The original Q/A/O/P layout is also supported.</p></section>
+        </div>
+        <details>
+          <summary>Read the original story</summary>
+          <p>“Captain, I don't have to remind you of the importance of this flight”, bellowed Air Vice-Marshal Dirk Overshot from the other side of the hangar.</p>
+          <p>“I'm afraid you do sir, nobody has told me what it's all about”, retorted Captain Chuck Harrison. “All I was told, sir, was to report to you at 0800 hours.”</p>
+          <p>“Your task, as our top test pilot, is to try out the new RP2-16, see what it can do, give it a spin. The most important aspect of the flight is to try out the new engines. They should take you to about nine tenths of the speed of light. You will fly faster than any man has flown before.”</p>
+          <p>At 0.9 light speed Chuck cut the engines, flung the ship around and fired the cannon. The extra surge pushed the ship to light speed. All he could see was colours and lights. He had entered the Other World.</p>
+        </details>
+      </article>
+    </section>
+
+    <section id="creditsScreen" class="screen document-screen">
+      <article class="credits">
+        <button class="back" data-screen="titleScreen">← TITLE</button>
+        <p class="eyebrow">AS PRINTED WITH THE ORIGINAL RELEASE</p>
+        <h2>CREDITS</h2>
+        <dl>
+          <dt>Design &amp; instructions</dt><dd>Bettertech Ltd</dd>
+          <dt>Spectrum &amp; Amstrad</dt><dd>A. P. Cooper</dd>
+          <dt>Commodore</dt><dd>D. Etherington</dd>
+          <dt>Graphics</dt><dd>Graff-Teknix</dd>
+          <dt>Audio</dt><dd>Binary Sight and Sounds</dd>
+        </dl>
+        <p class="copyright">© 1987 Ariolasoft UK Ltd.</p>
+        <p class="restoration-credit">Browser restoration assembled from preserved original releases for the Ariolasoft historical archive.</p>
+      </article>
+    </section>
+
+    <section id="archiveScreen" class="screen document-screen">
+      <article>
+        <button class="back" data-screen="titleScreen">← TITLE</button>
+        <p class="eyebrow">RESTORATION NOTES</p>
+        <h2>THREE VERSIONS. ONE LOST WORLD.</h2>
+        <p>This recreation draws on the preserved ZX Spectrum, Commodore 64 and Amstrad CPC releases. The original game code has not yet been recovered.</p>
+        <figure class="advert"><img src="assets/original/advert.jpg" alt="Original Out of This World advertisement"><figcaption>Original Reaktör advertisement</figcaption></figure>
+        <p>The single-player game comes first. Any later multiplayer experiment will remain a separate mode and will not replace the original rules.</p>
+      </article>
+    </section>
+
+    <section id="gameScreen" class="screen game-screen">
+      <canvas id="game" width="960" height="540" aria-label="Out of This World game"></canvas>
+      <div id="hud">
+        <div><small>LIVES</small><b id="hudLives">06</b></div>
+        <div><small>SCORE</small><b id="hudScore">00000000</b></div>
+        <div><small>WORLD</small><b id="hudLevel">01</b></div>
+        <div class="weapon"><small>WEAPON</small><b id="hudWeapon">QUARK CANNON</b><span><i id="energyBar"></i></span></div>
+      </div>
+      <div id="message" aria-live="polite"></div>
+      <div id="touchControls">
+        <button data-key="ArrowLeft">◀</button><button data-key="ArrowUp">▲</button><button data-key="ArrowDown">▼</button><button data-key="ArrowRight">▶</button><button class="fire" data-key="Space">FIRE</button>
+      </div>
+      <button id="leaveGame" class="game-menu">☰</button>
+    </section>
+  </main>
+  <script type="module" src="src/game.js"></script>
+</body>
+</html>
