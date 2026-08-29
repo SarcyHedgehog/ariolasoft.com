@@ -18,6 +18,8 @@ Production is hosted by GoDaddy. The manual GitHub Actions workflow in `.github/
 
 Development-only content (`source-data`, `tools`, `archive`, Git metadata and editor configuration) is excluded from deployment.
 
+The `hare-and-tortoise-api` directory contains the small cross-origin group and leaderboard service used by the restored Sarcastic Hedgehog game. Its runtime data directory is protected from HTTP access and excluded from every deployment so publishing site updates cannot overwrite player data. Deploy it independently with the `Deploy Hare and Tortoise score service` workflow.
+
 Do not use the action's clean-slate option: the remote account may contain hosting-managed files outside this project.
 
 ## Catalogue data and contributions

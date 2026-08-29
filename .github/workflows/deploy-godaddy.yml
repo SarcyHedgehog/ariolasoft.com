@@ -40,5 +40,6 @@ jobs:
             **/*.bat
             test.html
             archive/**
+            hare-and-tortoise-api/data/**
             source-data/**
             tools/**

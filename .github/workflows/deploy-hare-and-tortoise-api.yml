@@ -1,0 +1,32 @@
+name: Deploy Hare and Tortoise score service
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Deploy score service over FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+        with:
+          server: ${{ secrets.GODADDY_FTP_SERVER }}
+          username: ${{ secrets.GODADDY_FTP_USERNAME }}
+          password: ${{ secrets.GODADDY_FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          local-dir: hare-and-tortoise-api/
+          server-dir: /hare-and-tortoise-api/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            data/*.json
+            data/*.lock
+
