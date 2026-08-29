@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-const STORE_VERSION = 1;
+const STORE_VERSION = 2;
 const MAX_BODY_BYTES = 131072;
 
 header('Content-Type: application/json; charset=utf-8');
@@ -94,6 +94,7 @@ function with_store(bool $mutating, callable $operation)
     if (!isset($store['groups']) || !is_array($store['groups'])) {
         $store['groups'] = array();
     }
+    $store['version'] = STORE_VERSION;
 
     $result = $operation($store);
     if ($mutating) {
@@ -151,6 +152,7 @@ function ensure_player(array &$store, string $id, string $token, string $name): 
         'previous_group_code' => null,
         'role' => null,
         'scores' => array(),
+        'group_numbers' => array(),
         'created_at' => gmdate('c'),
         'seen_at' => gmdate('c')
     );
@@ -183,8 +185,11 @@ function merge_progress(array &$player, $progress): void
             $key = $levelId . ':' . $track;
             $existing = isset($player['scores'][$key]) && is_array($player['scores'][$key])
                 ? $player['scores'][$key]
-                : array('level_id' => $levelId, 'track' => $track, 'overall' => null, 'golden' => null, 'stars' => 0, 'par_beaten' => false);
-            foreach (array('overall', 'golden') as $category) {
+                : array('level_id' => $levelId, 'track' => $track, 'overall' => null, 'standard' => null, 'golden' => null, 'stars' => 0, 'par_beaten' => false);
+            if (!array_key_exists('standard', $existing)) {
+                $existing['standard'] = null;
+            }
+            foreach (array('overall', 'standard', 'golden') as $category) {
                 $candidate = valid_score(isset($incoming[$category]) ? $incoming[$category] : null);
                 if ($candidate === null) {
                     continue;
@@ -202,71 +207,127 @@ function merge_progress(array &$player, $progress): void
     }
 }
 
-function aggregate_player(array $player, string $track): array
+function ensure_group_numbers(array &$store, string $groupId): void
 {
-    $total = 0.0;
-    $completed = 0;
-    $golden = 0;
-    foreach ($player['scores'] as $score) {
-        if (!is_array($score) || $score['track'] !== $track) {
-            continue;
-        }
-        if (!empty($score['par_beaten']) && valid_score($score['overall']) !== null) {
-            $total += (float)$score['overall'];
-            $completed++;
-        }
-        if (valid_score($score['golden']) !== null) {
-            $golden++;
+    if (!isset($store['groups'][$groupId])) {
+        return;
+    }
+    $memberIds = array();
+    foreach ($store['players'] as $id => $candidate) {
+        if (isset($candidate['group_id']) && $candidate['group_id'] === $groupId) {
+            $memberIds[] = $id;
         }
     }
-    return array(
-        'playerId' => $player['id'],
-        'name' => $player['name'],
-        'total' => round($total, 3),
-        'completed' => $completed,
-        'golden' => $golden
-    );
+    usort($memberIds, function ($leftId, $rightId) use ($store, $groupId) {
+        $left = $store['players'][$leftId];
+        $right = $store['players'][$rightId];
+        $ownerId = isset($store['groups'][$groupId]['owner_id']) ? $store['groups'][$groupId]['owner_id'] : '';
+        if ($leftId === $ownerId && $rightId !== $ownerId) return -1;
+        if ($rightId === $ownerId && $leftId !== $ownerId) return 1;
+        $leftJoined = isset($left['joined_at']) ? (string)$left['joined_at'] : (isset($left['created_at']) ? (string)$left['created_at'] : '');
+        $rightJoined = isset($right['joined_at']) ? (string)$right['joined_at'] : (isset($right['created_at']) ? (string)$right['created_at'] : '');
+        if ($leftJoined === $rightJoined) return strcmp($leftId, $rightId);
+        return strcmp($leftJoined, $rightJoined);
+    });
+
+    $used = array();
+    foreach ($memberIds as $id) {
+        $numbers = isset($store['players'][$id]['group_numbers']) && is_array($store['players'][$id]['group_numbers'])
+            ? $store['players'][$id]['group_numbers']
+            : array();
+        $number = isset($numbers[$groupId]) ? (int)$numbers[$groupId] : 0;
+        if ($number > 0 && !isset($used[$number])) {
+            $used[$number] = true;
+        } else {
+            $numbers[$groupId] = 0;
+        }
+        $store['players'][$id]['group_numbers'] = $numbers;
+    }
+
+    $next = isset($store['groups'][$groupId]['next_player_number'])
+        ? max(1, (int)$store['groups'][$groupId]['next_player_number'])
+        : 1;
+    if (!empty($used)) $next = max($next, max(array_keys($used)) + 1);
+    foreach ($memberIds as $id) {
+        if ((int)$store['players'][$id]['group_numbers'][$groupId] > 0) continue;
+        while (isset($used[$next])) $next++;
+        $store['players'][$id]['group_numbers'][$groupId] = $next;
+        $used[$next] = true;
+        $next++;
+    }
+    $store['groups'][$groupId]['next_player_number'] = $next;
 }
 
-function group_payload(array $store, array $player): array
+function group_records(array $members): array
+{
+    $records = array(
+        'standard' => array('hare' => array(), 'tortoise' => array()),
+        'golden' => array('hare' => array(), 'tortoise' => array())
+    );
+    foreach (array('standard', 'golden') as $category) {
+        foreach (array('hare', 'tortoise') as $track) {
+            $winners = array();
+            foreach ($members as $member) {
+                foreach ($member['scores'] as $score) {
+                    if (!is_array($score) || $score['track'] !== $track) continue;
+                    $time = valid_score(isset($score[$category]) ? $score[$category] : null);
+                    if ($time === null) continue;
+                    $levelId = (string)$score['level_id'];
+                    $candidate = array(
+                        'levelId' => $levelId,
+                        'playerId' => $member['id'],
+                        'playerNumber' => (int)$member['player_number'],
+                        'name' => $member['name'],
+                        'time' => $time
+                    );
+                    if (!isset($winners[$levelId])) {
+                        $winners[$levelId] = $candidate;
+                        continue;
+                    }
+                    $current = $winners[$levelId];
+                    $better = $track === 'hare' ? $time < $current['time'] : $time > $current['time'];
+                    $tiedEarlierMember = $time === $current['time'] && $candidate['playerNumber'] < $current['playerNumber'];
+                    if ($better || $tiedEarlierMember) $winners[$levelId] = $candidate;
+                }
+            }
+            $records[$category][$track] = array_values($winners);
+        }
+    }
+    return $records;
+}
+
+function group_payload(array &$store, array $player): array
 {
     $membership = null;
-    $boards = array('hare' => array(), 'tortoise' => array());
+    $emptyRecords = array('standard' => array('hare' => array(), 'tortoise' => array()), 'golden' => array('hare' => array(), 'tortoise' => array()));
     $groupId = isset($player['group_id']) ? $player['group_id'] : null;
     if ($groupId === null || !isset($store['groups'][$groupId])) {
-        return array('membership' => null, 'leaderboards' => $boards);
+        return array('membership' => null, 'members' => array(), 'records' => $emptyRecords);
     }
+    ensure_group_numbers($store, $groupId);
+    $player = $store['players'][$player['id']];
     $group = $store['groups'][$groupId];
     $members = array();
     foreach ($store['players'] as $candidate) {
         if (isset($candidate['group_id']) && $candidate['group_id'] === $groupId) {
+            $candidate['player_number'] = (int)$candidate['group_numbers'][$groupId];
             $members[] = $candidate;
         }
     }
-    foreach (array('hare', 'tortoise') as $track) {
-        foreach ($members as $member) {
-            $boards[$track][] = aggregate_player($member, $track);
-        }
-        usort($boards[$track], function ($left, $right) use ($track) {
-            if ($left['completed'] !== $right['completed']) {
-                return $right['completed'] <=> $left['completed'];
-            }
-            if ($left['total'] === $right['total']) {
-                return strcasecmp($left['name'], $right['name']);
-            }
-            return $track === 'hare' ? ($left['total'] <=> $right['total']) : ($right['total'] <=> $left['total']);
-        });
-        $boards[$track] = array_slice($boards[$track], 0, 20);
-    }
+    usort($members, function ($left, $right) { return $left['player_number'] <=> $right['player_number']; });
+    $publicMembers = array_map(function ($member) {
+        return array('playerId' => $member['id'], 'name' => $member['name'], 'number' => $member['player_number']);
+    }, $members);
     $membership = array(
         'id' => $groupId,
         'name' => $group['name'],
         'code' => $group['code'],
         'role' => isset($player['role']) ? $player['role'] : 'member',
         'memberCount' => count($members),
+        'playerNumber' => (int)$player['group_numbers'][$groupId],
         'joinedAt' => isset($player['joined_at']) ? $player['joined_at'] : null
     );
-    return array('membership' => $membership, 'leaderboards' => $boards);
+    return array('membership' => $membership, 'members' => $publicMembers, 'records' => group_records($members));
 }
 
 function unique_group_code(array $groups): string
@@ -317,11 +378,13 @@ $result = with_store(true, function (&$store) use ($action, $body, $playerId, $p
         }
         $code = unique_group_code($store['groups']);
         $groupId = bin2hex(random_bytes(12));
-        $store['groups'][$groupId] = array('id' => $groupId, 'name' => $name, 'code' => $code, 'owner_id' => $playerId, 'created_at' => gmdate('c'));
+        $store['groups'][$groupId] = array('id' => $groupId, 'name' => $name, 'code' => $code, 'owner_id' => $playerId, 'next_player_number' => 2, 'created_at' => gmdate('c'));
         $player['group_id'] = $groupId;
         $player['role'] = 'owner';
         $player['joined_at'] = gmdate('c');
         $player['previous_group_code'] = null;
+        if (!isset($player['group_numbers']) || !is_array($player['group_numbers'])) $player['group_numbers'] = array();
+        $player['group_numbers'][$groupId] = 1;
         $store['players'][$playerId] = $player;
     } elseif ($action === 'join-group') {
         if (!empty($player['group_id'])) {
@@ -373,7 +436,8 @@ $result = with_store(true, function (&$store) use ($action, $body, $playerId, $p
         'player' => array('id' => $player['id'], 'name' => $player['name']),
         'membership' => $groupData['membership'],
         'previousGroupCode' => isset($player['previous_group_code']) ? $player['previous_group_code'] : null,
-        'leaderboards' => $groupData['leaderboards']
+        'members' => $groupData['members'],
+        'records' => $groupData['records']
     );
 });
 

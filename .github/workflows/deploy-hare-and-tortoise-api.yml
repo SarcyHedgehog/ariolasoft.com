@@ -14,6 +14,9 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v6
 
+      - name: Validate score service
+        run: php -l hare-and-tortoise-api/index.php
+
       - name: Deploy score service over FTPS
         uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
