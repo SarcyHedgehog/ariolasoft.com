@@ -261,10 +261,10 @@ function ensure_group_numbers(array &$store, string $groupId): void
 function group_records(array $members): array
 {
     $records = array(
-        'standard' => array('hare' => array(), 'tortoise' => array()),
+        'overall' => array('hare' => array(), 'tortoise' => array()),
         'golden' => array('hare' => array(), 'tortoise' => array())
     );
-    foreach (array('standard', 'golden') as $category) {
+    foreach (array('overall', 'golden') as $category) {
         foreach (array('hare', 'tortoise') as $track) {
             $winners = array();
             foreach ($members as $member) {
@@ -299,7 +299,7 @@ function group_records(array $members): array
 function group_payload(array &$store, array $player): array
 {
     $membership = null;
-    $emptyRecords = array('standard' => array('hare' => array(), 'tortoise' => array()), 'golden' => array('hare' => array(), 'tortoise' => array()));
+    $emptyRecords = array('overall' => array('hare' => array(), 'tortoise' => array()), 'golden' => array('hare' => array(), 'tortoise' => array()));
     $groupId = isset($player['group_id']) ? $player['group_id'] : null;
     if ($groupId === null || !isset($store['groups'][$groupId])) {
         return array('membership' => null, 'members' => array(), 'records' => $emptyRecords);
