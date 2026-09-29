@@ -143,6 +143,44 @@
     "lastReviewed": ""
   },
   {
+    "slug": "operationwhirlwind",
+    "title": "Operation Whirlwind",
+    "year": 1983,
+    "developer": "Roger Damon",
+    "label": "Brøderbund",
+    "platforms": [
+      "c64",
+      "atari8"
+    ],
+    "media": [],
+    "description": "Operation Whirlwind is a turn-based battalion-level strategy game created by Roger Damon and published by Brøderbund in 1983 for the Commodore 64 and Atari 8-bit computers. Ariolasoft distributed the title in Europe.\n\nSet in northern France during the Second World War, the game places tanks, guns and infantry platoons under the player's command. Enemy positions remain hidden until they reveal themselves by firing, while bombardment can weaken units or halt an advance. An assault phase handles close combat, and engineers can rebuild bridges needed to continue the operation.\n\nIts relatively approachable design offered a tactical computer wargame without the enormous time and record-keeping demands associated with many of its contemporaries.",
+    "image": "images/operation-whirlwind-cover.jpg",
+    "imageCredit": "",
+    "sources": "Source reviewed: https://en.wikipedia.org/wiki/Operation_Whirlwind_(video_game)",
+    "lastReviewed": "2026-09-29"
+  },
+  {
+    "slug": "pinballconstructionset",
+    "title": "Pinball Construction Set",
+    "year": 1983,
+    "developer": "BudgeCo",
+    "label": "Electronic Arts",
+    "platforms": [
+      "c64",
+      "atari8",
+      "pcbooter",
+      "apple2"
+    ],
+    "media": [
+      "images/pinball-construction-set-gameplay.png"
+    ],
+    "description": "Pinball Construction Set was designed and programmed by Bill Budge, first published by BudgeCo for the Apple II in 1982 and released by Electronic Arts in 1983 with Atari 8-bit and Commodore 64 editions. Ariolasoft published the game in Europe.\n\nRather than supplying only a fixed table, it lets players construct their own pinball machines through a graphical drag-and-drop interface. Bumpers, flippers, spinners and other parts can be positioned freely, while gravity and aspects of the physics can be adjusted. Completed tables can be saved and shared, and can be played without the construction program.\n\nThe game established the construction-set genre and became one of the most influential early examples of user-generated game content.",
+    "image": "images/pinball-construction-set-title.png",
+    "imageCredit": "",
+    "sources": "Source reviewed: https://en.wikipedia.org/wiki/Pinball_Construction_Set",
+    "lastReviewed": "2026-09-29"
+  },
+  {
     "slug": "mule",
     "title": "M.U.L.E.",
     "year": 1983,
@@ -652,6 +690,25 @@
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
+  },
+  {
+    "slug": "mailordermonsters",
+    "title": "Mail Order Monsters",
+    "year": 1985,
+    "developer": "Paul Reiche III, Evan Robinson and Nicky Robinson",
+    "label": "Electronic Arts",
+    "platforms": [
+      "c64",
+      "atari8"
+    ],
+    "media": [
+      "images/mail-order-monsters-gameplay.jpg"
+    ],
+    "description": "Mail Order Monsters is an action-strategy game created by Paul Reiche III, Evan Robinson and Nicky Robinson. Electronic Arts published the Commodore 64 edition in 1985 and the Atari 8-bit version followed in 1986; Ariolasoft published the game in Europe.\n\nPlayers create and customise creatures, buying weapons and unusual abilities before sending them into battle. The game supports head-to-head combat, capture the flag and a single-player contest against computer-controlled opponents. Terrain affects the fighting, while successful monsters can be saved to disk and improved through later victories.\n\nIts mixture of creature customisation, persistent combatants and competitive action has since been recognised as an early forerunner of later monster-battling games.",
+    "image": "images/mail-order-monsters-cover.jpg",
+    "imageCredit": "",
+    "sources": "Source reviewed: https://en.wikipedia.org/wiki/Mail_Order_Monsters",
+    "lastReviewed": "2026-09-29"
   },
   {
     "slug": "racingdestructionset",
