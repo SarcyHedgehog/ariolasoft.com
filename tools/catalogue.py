@@ -122,9 +122,17 @@ def render_detail(record: dict) -> str:
     title = html.escape(record["title"])
     description = html.escape(record["description"], quote=False)
     image = record.get("image", "")
+    gallery = []
+    for path in [image, *record.get("media", [])]:
+        if path and path not in gallery:
+            gallery.append(path)
     sources = record.get("sources", "")
-    if image:
-        body = f'''    <div id="image-container">\n        <img src="{html.escape(image, quote=True)}" alt="{title}">\n    </div>\n    <div id="text-container">'''
+    if gallery:
+        images = "\n".join(
+            f'        <img src="{html.escape(path, quote=True)}" alt="{title} image {index}" loading="lazy">'
+            for index, path in enumerate(gallery, start=1)
+        )
+        body = f'''    <div id="image-container" class="image-gallery image-count-{len(gallery)}">\n{images}\n    </div>\n    <div id="text-container">'''
     else:
         body = '    <div id="text-container" class="text-only">'
     source_comment = f"\n    <!-- {sources} -->" if sources else ""
