@@ -94,7 +94,9 @@
       "amiga",
       "apple2"
     ],
-    "media": [],
+    "media": [
+      "images/archon-box.png"
+    ],
     "description": "Research in progress.\n\nArchon: The Light and the Dark appeared in 1983 under the Electronic Arts label. The catalogue credits Free Fall.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum, Atari 8-bit, PC Booter, Amiga, Apple II.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
     "image": "images/archonthelightandthedark.png",
     "imageCredit": "",
@@ -193,7 +195,9 @@
       "pcw",
       "c16"
     ],
-    "media": [],
+    "media": [
+      "images/one-on-one-cover.png"
+    ],
     "description": "One-On-One is a basketball simulation video game developed and published by Electronic Arts in 1983. Featuring a one-on-one basketball match between Larry Bird and Julius Erving, players can experience intense basketball action on their computer screens. With its realistic gameplay and smooth controls, One-On-One became a favorite among sports gaming enthusiasts.",
     "image": "images/oneonone.jpg",
     "imageCredit": "",
@@ -305,7 +309,7 @@
     ],
     "media": [],
     "description": "The Castles of Dr. Creep is a Commodore 64 puzzle-platform game written by Ed Hobbs and first published by Brøderbund in 1984. Ariolasoft published the UK edition in 1985.\n\nPlayers explore a collection of large, interconnected castles and must solve each one before escaping. Rooms contain switches, ladders, moving walkways, lifts, trapdoors, force fields and teleporters, alongside hazards drawn from classic horror films: mummies, vampires, Frankenstein's monster and other residents of Dr. Creep's estate.\n\nThe game includes thirteen main castles plus a tutorial and can be played alone or cooperatively by two players. Progress depends less on quick reactions than on understanding how rooms connect and how one mechanism affects another, making it an unusually elaborate mixture of platform action and environmental puzzle solving for its period.",
-    "image": "",
+    "image": "images/castles-of-dr-creep-cover.jpg",
     "imageCredit": "",
     "sources": "Sources reviewed: original UK manual; MobyGames release record; contemporary and official re-release descriptions.",
     "lastReviewed": ""
@@ -327,7 +331,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nArchon II: Adept appeared in 1984 under the Electronic Arts label. The catalogue credits Free Fall.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum, Atari 8-bit, PC Booter, Amiga, Apple II.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/archon-ii-cover.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -345,7 +349,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nMarble Madness appeared in 1984 under the Electronic Arts label. The catalogue credits Atari.\n\nKnown catalogue formats: Commodore 64, PC Booter, Apple II.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/marble-madness-screenshot.png",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -364,7 +368,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nRealm of Impossibility appeared in 1984 under the Electronic Arts label. The catalogue credits Electronic Arts.\n\nKnown catalogue formats: Commodore 64, ZX Spectrum, Atari 8-bit, Commodore 16.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/realm-of-impossibility-cover.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -385,7 +389,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nSkyfox appeared in 1984 under the Electronic Arts label. The catalogue credits Ray Tobey.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum, Atari ST, Apple II, Amstrad PCW.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/skyfox-ariolasoft.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -405,7 +409,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nThe Seven Cities of Gold appeared in 1984 under the Electronic Arts label. The catalogue credits Ozark.\n\nKnown catalogue formats: Commodore 64, Atari 8-bit, Amiga, Amstrad PCW, Commodore 16.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/seven-cities-of-gold-cover.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -571,7 +575,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nScarabaeus appeared in 1985 under the Ariolasoft label. The catalogue credits Andromeda.\n\nKnown catalogue formats: Commodore 64.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/scarabaeus-box-art.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -591,7 +595,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nThe Fourth Protocol appeared in 1985 under the Ariolasoft label. The catalogue credits Electronic Pencil Co.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum, Atari ST, Amstrad PCW.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/fourth-protocol-cover.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -644,7 +648,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nAdventure Construction Set appeared in 1985 under the Electronic Arts label. The catalogue credits Electronic Arts.\n\nKnown catalogue formats: Commodore 64, MSX, Atari ST, Apple II, Amstrad PCW.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/adventure-construction-set.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -686,7 +690,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nThe Bard's Tale appeared in 1985 under the Electronic Arts label. The catalogue credits Interplay.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum, MSX, MS-DOS, Atari ST, Amiga, Apple II, Amstrad PCW, Commodore 16.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/bards-tale-cover.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -704,7 +708,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nThey $tole a Million appeared in 1986 under the 39 Steps label. The catalogue credits Tigress.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/they-stole-a-million-cover.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -913,7 +917,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nArcticfox appeared in 1986 under the Electronic Arts label. The catalogue credits Dynamix.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum, MSX, PC Booter, Atari ST, Amiga, Apple II, Amstrad PCW.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/arcticfox-box.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -929,9 +933,11 @@
       "cpc",
       "spectrum"
     ],
-    "media": [],
+    "media": [
+      "images/deactivators-gameplay.png"
+    ],
     "description": "Research in progress.\n\nDeactivators appeared in 1986 under the Reaktor label. The catalogue credits Tigress.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/deactivators-cover.png",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1033,7 +1039,7 @@
     ],
     "media": [],
     "description": "The cancelled 1987 launch\n\nViz Design had previously worked with Ariolasoft on Bride of Frankenstein. Werewolves of London was heavily previewed in 1987 as a major forthcoming full-price release for Ariolasoft's Viz Design label.\n\nThe Amstrad CPC edition did reach production in 1987, and surviving original Ariolasoft retail copies show that a small number made it into circulation. Ariolasoft UK ceased trading around the time of the intended launch, however, preventing the planned wider release.\n\nThe title was subsequently picked up by Mastertronic and received its widespread commercial release in 1989 as a £1.99 budget game.\n\nKnown formats: Commodore 64, Amstrad CPC and ZX Spectrum.",
-    "image": "",
+    "image": "images/werewolves-of-london.jpg",
     "imageCredit": "",
     "sources": "Sources reviewed: contemporary 1987 magazine previews and reviews; MobyGames release records; World of Spectrum; Lemon64; CPC-Power.",
     "lastReviewed": "2026-09-29"
@@ -1171,9 +1177,11 @@
       "cpc",
       "spectrum"
     ],
-    "media": [],
+    "media": [
+      "images/starfox-spectrum-screenshot.png"
+    ],
     "description": "Research in progress.\n\nStarfox appeared in 1987 under the Reaktor label. The catalogue credits Realtime Games.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/starfox-spectrum-cover.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
