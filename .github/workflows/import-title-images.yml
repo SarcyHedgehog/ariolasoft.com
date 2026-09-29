@@ -1,0 +1,38 @@
+name: Import production title images
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install FTPS client
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+
+      - name: Download title images from production
+        env:
+          FTP_SERVER: ${{ secrets.GODADDY_FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.GODADDY_FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.GODADDY_FTP_PASSWORD }}
+          FTP_SERVER_DIR: ${{ secrets.GODADDY_FTP_SERVER_DIR }}
+        run: |
+          mkdir -p imported-title-images
+          lftp -u "$FTP_USERNAME","$FTP_PASSWORD" "$FTP_SERVER" <<EOF
+          set ftp:ssl-force true
+          set ftp:ssl-protect-data true
+          cd "$FTP_SERVER_DIR/titles/images"
+          mirror --verbose --parallel=2 . imported-title-images
+          bye
+          EOF
+
+      - name: Package imported images
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-title-images
+          path: imported-title-images/
+          if-no-files-found: error
+          retention-days: 1
