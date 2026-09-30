@@ -330,7 +330,7 @@
     ],
     "media": [],
     "description": "Raid on Bungeling Bay was designed and programmed by Will Wright for the Commodore 64 and first published by Brøderbund in 1984. Ariolasoft published the UK release. It was Wright's first commercial game, several years before he created SimCity.\n\nThe player pilots a helicopter from an aircraft carrier and must find and destroy six factories spread across the islands of Bungeling Bay. The factories do not simply wait to be attacked: they produce and strengthen enemy defences, escalating from gun emplacements and fighters to guided missiles and a battleship. Returning to the carrier allows the helicopter to rearm and repair, provided the carrier itself survives.\n\nIts scrolling world and increasingly organised opposition made it more strategic than a conventional shoot-'em-up. Wright's experience building and observing the simulated island environment became an important step towards the ideas he later developed in SimCity.",
-    "image": "",
+    "image": "images/raid-on-bungeling-bay.jpg",
     "imageCredit": "",
     "sources": "Sources reviewed: original game instructions; MobyGames release record; Will Wright game-history accounts.",
     "lastReviewed": ""
@@ -463,7 +463,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nBatalyx appeared in 1985 under the Ariolasoft label. The catalogue credits Batlalyx.\n\nKnown catalogue formats: Commodore 64.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/batalyx.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -480,9 +480,11 @@
       "spectrum",
       "msx"
     ],
-    "media": [],
+    "media": [
+      "images/camelot-warriors-title.png"
+    ],
     "description": "Research in progress.\n\nCamelot Warriors appeared in 1985 under the Ariolasoft label. The catalogue credits Dinamic Software.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum, MSX.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/camelot-warriors-cover.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -498,7 +500,7 @@
     ],
     "media": [],
     "description": "DEGAS — the Design & Entertainment Graphic Arts System — was a bitmap painting program created by Tom Hudson for the Atari ST and published by Batteries Included in 1985. Its working title had been HUDraw before Hudson adopted the name inspired by the French artist Edgar Degas.\n\nOne of the first full-featured art packages for the new Atari ST, DEGAS supported all three of the machine's display modes and supplied tools for freehand drawing, shapes, fills, text and detailed pixel editing. Its PI1, PI2 and PI3 picture formats became widely recognised across the ST software scene.\n\nAriolasoft published DEGAS in the UK and Europe. It was an Atari ST-exclusive application.",
-    "image": "",
+    "image": "images/degas.png",
     "imageCredit": "",
     "sources": "Sources reviewed: contemporary Atari ST buyer's guides; Tom Hudson development history; platform and release records.",
     "lastReviewed": ""
@@ -514,7 +516,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nFloyd the Droid appeared in 1985 under the Ariolasoft label. The catalogue credits Radarsoft.\n\nKnown catalogue formats: Commodore 64.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/floyd-the-droid.png",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -528,9 +530,11 @@
     "platforms": [
       "c64"
     ],
-    "media": [],
+    "media": [
+      "images/golf-construction-set-title.png"
+    ],
     "description": "Research in progress.\n\nGolf Construction Set appeared in 1985 under the Ariolasoft label. The catalogue credits Andromeda / Tigress.\n\nKnown catalogue formats: Commodore 64.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/golf-construction-set-cover.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -547,7 +551,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nLapis Philosophorum: The Philosophers Stone appeared in 1985 under the Ariolasoft label. The catalogue credits pH Soft.\n\nKnown catalogue formats: Commodore 64, Atari 8-bit.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/lapis-philosophorum.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -580,7 +584,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nPanzadrome appeared in 1985 under the Ariolasoft label. The catalogue credits RamJam Corp.\n\nKnown catalogue formats: Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/panzadrome.png",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -597,7 +601,7 @@
     ],
     "media": [],
     "description": "PaperClip was the flagship word processor from Canadian software company Batteries Included. The Commodore 64 version was written by Steve Douglas; Steve Ahlstrom and Dan Moore produced the substantially different Atari 8-bit version, drawing on the editor from the Action! programming language.\n\nPaperClip combined document editing and printing with unusually capable features for an 8-bit home computer, including macros, multiple editing windows, search and replace, block operations and mail-merge facilities. It became one of the best-known serious applications for both platforms.\n\nAriolasoft published PaperClip in the UK in 1985 for the Commodore 64 and Atari 8-bit family. Both Ariolasoft editions were supplied on disk; there were no cassette editions.",
-    "image": "",
+    "image": "images/paperclip.gif",
     "imageCredit": "",
     "sources": "Sources reviewed: contemporary Antic coverage; Batteries Included company history; platform and authorship records. Ariolasoft format detail supplied from first-hand company recollection.",
     "lastReviewed": ""
@@ -650,7 +654,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nThink! appeared in 1985 under the Ariolasoft label. The catalogue credits Tigress.\n\nKnown catalogue formats: Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/think.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -666,7 +670,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nWild West appeared in 1985 under the Ariolasoft label. The catalogue credits Andromeda.\n\nKnown catalogue formats: Commodore 64.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/wild-west.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -722,7 +726,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nRacing Destruction Set appeared in 1985 under the Electronic Arts label. The catalogue credits Electronic Arts.\n\nKnown catalogue formats: Commodore 64, Atari 8-bit.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/racing-destruction-set.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -781,7 +785,7 @@
     ],
     "media": [],
     "description": "DEGAS Elite was Tom Hudson's expanded successor to DEGAS, published by Batteries Included in 1986 for the Atari ST. It retained compatibility with pictures created in the original program while considerably enlarging its creative toolset.\n\nElite added multiple work screens, clip-art handling and advanced block operations including scaling, rotation, skewing and distortion. Its colour-cycling animation controls let artists set the direction and speed of palette changes, producing animated effects without redrawing the image frame by frame.\n\nAriolasoft published DEGAS Elite in the UK and Europe. Like its predecessor, it was exclusive to the Atari ST.",
-    "image": "",
+    "image": "images/degas-elite.jpg",
     "imageCredit": "",
     "sources": "Sources reviewed: contemporary Atari ST buyer's guides and magazine coverage; Tom Hudson development history; platform and release records.",
     "lastReviewed": ""
@@ -799,7 +803,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nHyperforce appeared in 1986 under the Ariolasoft label. The catalogue credits Tony Takoushi.\n\nKnown catalogue formats: Commodore 64, Amiga, Commodore 16.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/hyperforce.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -817,9 +821,9 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nSepulcri appeared in 1986 under the Ariolasoft label. The catalogue credits Chris Sawyer.\n\nKnown catalogue formats: Amstrad CPC, ZX Spectrum, MSX.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/sepulcri.png",
     "imageCredit": "",
-    "sources": "",
+    "sources": "Preserved game instructions: source-data/sepulcri-instructions.pdf",
     "lastReviewed": ""
   },
   {
@@ -849,7 +853,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nStarship Andromeda appeared in 1986 under the Ariolasoft label. The catalogue credits Andromeda.\n\nKnown catalogue formats: Commodore 64.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/starship-andromeda.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -866,7 +870,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nThe Big Deal (Floyd 2) appeared in 1986 under the Ariolasoft label. The catalogue credits Radarsoft.\n\nKnown catalogue formats: Commodore 64, Apple II.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/the-big-deal.png",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -882,7 +886,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nThe Terrors of Trantoss appeared in 1986 under the Ariolasoft label. The catalogue credits RamJam Corp.\n\nKnown catalogue formats: Amstrad CPC.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/terrors-of-trantoss.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -950,7 +954,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nMatrix and Laserzone appeared in 1986 under the Ariolasoft label. The catalogue credits LLamasoft.\n\nKnown catalogue formats: Commodore 16.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/matrix-and-laserzone.png",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
