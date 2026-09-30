@@ -902,9 +902,11 @@
       "cpc",
       "spectrum"
     ],
-    "media": [],
+    "media": [
+      "images/toadrunner-gameplay.gif"
+    ],
     "description": "Research in progress.\n\nToadrunner appeared in 1986 under the Ariolasoft label. The catalogue credits Dave Harper.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/toadrunner-cover.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -921,7 +923,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nTUJAD appeared in 1986 under the Ariolasoft label. The catalogue credits Orpheus.\n\nKnown catalogue formats: Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/tujad.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -938,7 +940,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nWerner: Let's go! appeared in 1986 under the Ariolasoft label. The catalogue credits Semmel Verlach.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/werner-lets-go.png",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1016,7 +1018,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nBride of Frankenstein appeared in 1987 under the 39 Steps label. The catalogue credits Viz Design.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/bride-of-frankenstein.png",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1032,7 +1034,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nLen Deighton's Blitzkrieg: The Game appeared in 1987 under the 39 Steps label. The catalogue credits Gary Yorke.\n\nKnown catalogue formats: Commodore 64.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/len-deightons-blitzkrieg.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1050,7 +1052,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nTriaxos appeared in 1987 under the 39 Steps label. The catalogue credits Pennsoft.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/triaxos.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1066,7 +1068,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nMrs. Mop appeared in 1987 under the Ariolasoft label. The catalogue credits John Stevenson.\n\nKnown catalogue formats: Commodore 64.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/mrs-mop.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1082,7 +1084,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nVoidrunner + Hellgate appeared in 1987 under the Ariolasoft label. The catalogue credits LLamasoft.\n\nKnown catalogue formats: Commodore 16.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/voidrunner-hellgate.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1116,7 +1118,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nCenturions: Power X Treme appeared in 1987 under the Reaktor label. The catalogue credits Byte Engineers.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/centurions-power-xtreme.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1133,11 +1135,11 @@
       "spectrum"
     ],
     "media": [],
-    "description": "Research in progress.\n\nChallenge of the Gobots appeared in 1987 under the Reaktor label. The catalogue credits Byte Engineers.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.\n\nByte Engineers was the credited name used by Tony Crowther for this work while he was contracted to Alligata Software.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "description": "Challenge of the Gobots is a 1987 arcade action game published on the Reaktor label. Game design and coding are credited in the original instructions to Tony Crowther and Ross Goodley, with storyline by RATT, text by K. Blake and R. Goodley, audio by We M.U.S.I.C., and the instructions by IFRIT.\n\nThe player takes the role of the courageous Leader 1. Scooter clones are collected by landing on them, then released with the bomb control and hurled at enemy bases. Huge rocks can also be torn from the ground or ceiling and thrown at enemies, although they cannot damage the bases. Destroying the bases advances the player through the levels, while aggressive play fills the score bar and can earn promotion or an extra life.\n\nThe instructions also describe rescuing humans who fall from the copter, a task reserved for players who have reached the top rank, plus configurable controls, a high-score display, and a practice level before beginning the main game.",
+    "image": "images/challenge-of-the-gobots.jpg",
     "imageCredit": "",
-    "sources": "",
-    "lastReviewed": ""
+    "sources": "Preserved original Challenge of the Gobots multilingual instructions; OCR and visual review.",
+    "lastReviewed": "2026-09-30"
   },
   {
     "slug": "deadringer",
@@ -1151,7 +1153,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nDeadringer appeared in 1987 under the Reaktor label. The catalogue credits Ariolasoft.\n\nKnown catalogue formats: Commodore 64, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/deadringer.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1168,7 +1170,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nKiller Ring appeared in 1987 under the Reaktor label. The catalogue credits Byte Engineers.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC.\n\nByte Engineers was the credited name used by Tony Crowther for this work while he was contracted to Alligata Software.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/killer-ring.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1186,7 +1188,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nMountie Mick's Deathride appeared in 1987 under the Reaktor label. The catalogue credits Ariolasoft.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/mountie-micks-deathride.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1204,7 +1206,7 @@
     ],
     "media": [],
     "description": "Out of This World is a colourful side-scrolling shoot-'em-up designed by Bettertech and published by Ariolasoft under the Reaktör label in 1987 for the Commodore 64, Amstrad CPC and ZX Spectrum. Eight looping worlds combine enemy waves, collectable weapon pods and enormous end-of-world Guardians. A playable browser restoration preserves the Spectrum loading screen, reconstructed CPC artwork and Jason C. Brooke's original C64 SID music.",
-    "image": "",
+    "image": "images/out-of-this-world.jpg",
     "imageCredit": "",
     "sources": "Original releases; World of Spectrum; Lemon64/HVSC; CPC-Power",
     "lastReviewed": "2026-08-15"
@@ -1220,7 +1222,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nPile-Up! appeared in 1987 under the Reaktor label. The catalogue credits Christop Shulte Vennbur.\n\nKnown catalogue formats: Commodore 64.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/pile-up.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1256,7 +1258,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nZarjaz appeared in 1987 under the Reaktor label. The catalogue credits Daryl Etherington.\n\nKnown catalogue formats: Commodore 64.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/zarjaz.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1274,7 +1276,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nDeathscape appeared in 1987 under the Starlight label. The catalogue credits Starlight.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/deathscape-starlight.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1292,7 +1294,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nDogfight 2187 appeared in 1987 under the Starlight label. The catalogue credits Starlight.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/dogfight-2187-starlight.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1328,7 +1330,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nHybrid appeared in 1987 under the Starlight label. The catalogue credits Starlight.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/hybrid-starlight.png",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1346,7 +1348,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nRed L.E.D. appeared in 1987 under the Starlight label. The catalogue credits Starlight.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/red-led.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1364,7 +1366,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nZiggurat appeared in 1988 under the Ariolasoft label. The catalogue credits Chris Sawyer.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/ziggurat.png",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1380,7 +1382,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nVermeer appeared in 1987 under the Ariolasoft label. The catalogue credits Ralf Glau / Ariolasoft.\n\nKnown catalogue formats: Commodore 64.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/vermeer.png",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
