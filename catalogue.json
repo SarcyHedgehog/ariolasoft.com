@@ -1090,16 +1090,14 @@
     "developer": "Viz Design",
     "label": "Ariolasoft",
     "platforms": [
-      "c64",
-      "cpc",
-      "spectrum"
+      "cpc"
     ],
     "media": [],
-    "description": "The cancelled 1987 launch\n\nViz Design had previously worked with Ariolasoft on Bride of Frankenstein. Werewolves of London was heavily previewed in 1987 as a major forthcoming full-price release for Ariolasoft's Viz Design label.\n\nThe Amstrad CPC edition did reach production in 1987, and surviving original Ariolasoft retail copies show that a small number made it into circulation. Ariolasoft UK ceased trading around the time of the intended launch, however, preventing the planned wider release.\n\nThe title was subsequently picked up by Mastertronic and received its widespread commercial release in 1989 as a £1.99 budget game.\n\nKnown formats: Commodore 64, Amstrad CPC and ZX Spectrum.",
+    "description": "The cancelled 1987 launch\n\nViz Design had previously worked with Ariolasoft on Bride of Frankenstein. Werewolves of London was heavily previewed in 1987 as a major forthcoming full-price release for Ariolasoft's Viz Design label.\n\nThe Amstrad CPC edition did reach production in 1987, and surviving original Ariolasoft retail copies show that a small number made it into circulation. Ariolasoft UK ceased trading around the time of the intended launch, however, preventing the planned wider release.\n\nThe title was subsequently picked up by Mastertronic and received its widespread commercial release in 1989 as a £1.99 budget game.\n\nVerified original Ariolasoft format: Amstrad CPC.",
     "image": "images/werewolves-of-london.jpg",
     "imageCredit": "",
-    "sources": "Sources reviewed: contemporary 1987 magazine previews and reviews; MobyGames release records; World of Spectrum; Lemon64; CPC-Power.",
-    "lastReviewed": "2026-09-29"
+    "sources": "Sources reviewed: The Games Machine issue 2, page 75 (https://archive.org/details/the-games-machine-02/page/n74/mode/1up); contemporary 1987 magazine previews and reviews; MobyGames release records; World of Spectrum; Lemon64; CPC-Power.",
+    "lastReviewed": "2026-09-30"
   },
   {
     "slug": "centurionspowerxtreme",
