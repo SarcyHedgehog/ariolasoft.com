@@ -820,11 +820,11 @@
       "msx"
     ],
     "media": [],
-    "description": "Research in progress.\n\nSepulcri appeared in 1986 under the Ariolasoft label. The catalogue credits Chris Sawyer.\n\nKnown catalogue formats: Amstrad CPC, ZX Spectrum, MSX.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
+    "description": "Sepulcri is a 1986 platform game programmed by Chris Sawyer and published by Ariolasoft. In the year 2075, engineers testing the first Strategic Defence Initiative satellite send a tiny robot inside its main computer to inspect the circuitry and report its many faults. Unfortunately, one confused technician has miniaturised male sheep and installed them in place of conventional RAM, leaving the robot to contend with some unusually literal computer hazards.\n\nThe first task is to explore the rooms and activate all 50 dip-switches by jumping on them. Moving enemies, sharp surfaces, unstable integrated circuits and floating points threaten the robot along the way. Once every switch has been found, the robot must enter ROTTES - Ridiculously Over The Top Exit Security - and alter ten code posts to spell LETMEOUTOK before locating the exit.\n\nThe original instructions credit Chris Sawyer with programming, Jill Lawson at 4am Designs with graphics and puns, the Tech Team with the implausible storyline, and IFRIT with the instructions. They also document redefinable controls, a pause function and an unusually useful screen-dump feature intended to help players map the game's rooms.",
     "image": "images/sepulcri.png",
     "imageCredit": "",
     "sources": "Preserved game instructions: source-data/sepulcri-instructions.pdf",
-    "lastReviewed": ""
+    "lastReviewed": "2026-09-30"
   },
   {
     "slug": "starburstawalkonthewildside",
