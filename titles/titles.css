@@ -42,6 +42,15 @@ body {
     object-fit: contain;
 }
 
+/* The surviving Ariolasoft PaperClip scan is only 177 by 185 pixels.
+   Preserve it at its natural size rather than magnifying the scan. */
+#image-container img[src$="paperclip-ariolasoft.png"] {
+    width: 177px;
+    height: 185px;
+    justify-self: center;
+    align-self: center;
+}
+
 #image-container.image-count-1 {
     grid-template-columns: 1fr;
 }

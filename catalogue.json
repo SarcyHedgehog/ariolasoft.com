@@ -153,11 +153,11 @@
       "atari8"
     ],
     "media": [],
-    "description": "Operation Whirlwind is a turn-based battalion-level strategy game created by Roger Damon and published by Brøderbund in 1983 for the Commodore 64 and Atari 8-bit computers. Ariolasoft distributed the title in Europe.\n\nSet in northern France during the Second World War, the game places tanks, guns and infantry platoons under the player's command. Enemy positions remain hidden until they reveal themselves by firing, while bombardment can weaken units or halt an advance. An assault phase handles close combat, and engineers can rebuild bridges needed to continue the operation.\n\nIts relatively approachable design offered a tactical computer wargame without the enormous time and record-keeping demands associated with many of its contemporaries.",
-    "image": "images/operation-whirlwind-cover.jpg",
+    "description": "Operation Whirlwind is a Second World War strategy game created by Roger Damon and released by Brøderbund in 1983, with Ariolasoft publishing the European editions. The player commands an armoured battalion whose primary objective lies fifteen kilometres away across two rivers: take the city and hold it.\n\nTerrain, obstacles and a capable enemy stand between the battalion and its objective. Victory requires seizing the city on schedule and then surviving the counterattack; failure leaves the front vulnerable to collapse. The game provides four difficulty levels, a realistic battlefield map, sound effects and on-screen status reports, while the disk edition can save a battle in progress.",
+    "image": "images/operation_whirlwind.jpeg",
     "imageCredit": "",
-    "sources": "Source reviewed: https://en.wikipedia.org/wiki/Operation_Whirlwind_(video_game)",
-    "lastReviewed": "2026-09-29"
+    "sources": "Original Ariolasoft back-cover description; https://en.wikipedia.org/wiki/Operation_Whirlwind_(video_game)",
+    "lastReviewed": "2026-10-01"
   },
   {
     "slug": "pinballconstructionset",
@@ -172,13 +172,50 @@
       "apple2"
     ],
     "media": [
+      "images/pinball-construction-set-title.png",
       "images/pinball-construction-set-gameplay.png"
     ],
     "description": "Pinball Construction Set was designed and programmed by Bill Budge, first published by BudgeCo for the Apple II in 1982 and released by Electronic Arts in 1983 with Atari 8-bit and Commodore 64 editions. Ariolasoft published the game in Europe.\n\nRather than supplying only a fixed table, it lets players construct their own pinball machines through a graphical drag-and-drop interface. Bumpers, flippers, spinners and other parts can be positioned freely, while gravity and aspects of the physics can be adjusted. Completed tables can be saved and shared, and can be played without the construction program.\n\nThe game established the construction-set genre and became one of the most influential early examples of user-generated game content.",
-    "image": "images/pinball-construction-set-title.png",
+    "image": "images/PinballConstructionSet.jpeg",
     "imageCredit": "",
     "sources": "Source reviewed: https://en.wikipedia.org/wiki/Pinball_Construction_Set",
     "lastReviewed": "2026-09-29"
+  },
+  {
+    "slug": "dbug",
+    "title": "D-Bug",
+    "year": 1983,
+    "developer": "ChildWare Corporation",
+    "label": "Electronic Arts",
+    "platforms": [
+      "c64",
+      "atari8"
+    ],
+    "media": [],
+    "description": "D-Bug is an educational action-strategy game developed by ChildWare Corporation and published by Electronic Arts in 1983 for the Commodore 64 and Atari 8-bit computers. Ariolasoft subsequently released both versions in Europe.\n\nThe game begins with a two-player contest called Gotcha! before the computer running it breaks down. Charlie Fix-It, who lives inside the machine, must locate the fault and repair the bug. The result is a game within a game that introduces the components and failure modes of a home computer through a series of diagnostic challenges.",
+    "image": "images/d_bug.jpg",
+    "imageCredit": "",
+    "sources": "Ariolasoft Autumn/Winter 1985 catalogue; MobyGames D-Bug release record; contemporary Electronic Arts material.",
+    "lastReviewed": "2026-10-01"
+  },
+  {
+    "slug": "musicconstructionset",
+    "title": "Music Construction Set",
+    "year": 1983,
+    "developer": "Will Harvey",
+    "label": "Electronic Arts",
+    "platforms": [
+      "c64",
+      "atari8",
+      "pcbooter",
+      "apple2"
+    ],
+    "media": [],
+    "description": "Will Harvey's Music Construction Set turns musical notation into an approachable graphical construction kit. Notes are selected and placed directly onto a staff, after which the computer can play the composition back. Speed, volume, sound quality and key can be adjusted, while finished music can be printed. Built-in tunes, icon-driven commands and joystick control were intended to make it accessible to newcomers without limiting more serious experimentation.\n\nAriolasoft's 1985 catalogue offered the original, non-Deluxe program for Commodore 64/128, Atari 8-bit, Apple II and IBM PC/PCjr. Deluxe Music Construction Set was a later redesign for Amiga and Macintosh and is not included as this catalogue entry.",
+    "image": "images/MusicConstructionSet.jpeg",
+    "imageCredit": "",
+    "sources": "Ariolasoft Autumn/Winter 1985 catalogue; https://en.wikipedia.org/wiki/Music_Construction_Set",
+    "lastReviewed": "2026-10-01"
   },
   {
     "slug": "mule",
@@ -228,13 +265,15 @@
     "label": "Electronic Arts",
     "platforms": [
       "c64",
+      "spectrum",
       "atari8",
       "amiga",
       "pcw",
       "c16"
     ],
     "media": [
-      "images/one-on-one-cover.png"
+      "images/one-on-one-cover.png",
+      "images/one-on-one-spectrum.png"
     ],
     "description": "One-On-One is a basketball simulation video game developed and published by Electronic Arts in 1983. Featuring a one-on-one basketball match between Larry Bird and Julius Erving, players can experience intense basketball action on their computer screens. With its realistic gameplay and smooth controls, One-On-One became a favorite among sports gaming enthusiasts.",
     "image": "images/oneonone.jpg",
@@ -383,14 +422,53 @@
     "platforms": [
       "c64",
       "pcbooter",
+      "amiga",
       "apple2"
     ],
-    "media": [],
-    "description": "Research in progress.\n\nMarble Madness appeared in 1984 under the Electronic Arts label. The catalogue credits Atari.\n\nKnown catalogue formats: Commodore 64, PC Booter, Apple II.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "images/marble-madness-screenshot.png",
+    "media": [
+      "images/marble-madness-screenshot.png",
+      "images/marble madness-amiga.jpg"
+    ],
+    "description": "Marble Madness is the home-computer adaptation of Atari Games' influential 1984 arcade game. Players race a marble through six isometric obstacle courses against a strict time limit, contending with ramps, narrow ledges, moving hazards and hostile marbles.\n\nElectronic Arts published the home versions, with Ariolasoft handling European editions. The surviving Ariolasoft material includes Commodore 64 packaging and an Amiga disk, alongside versions for Apple II and IBM PC compatibles.",
+    "image": "images/MarbleMadnessC64.jpeg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
+  },
+  {
+    "slug": "moviemaker",
+    "title": "Movie Maker",
+    "year": 1984,
+    "developer": "Interactive Picture Systems",
+    "label": "Electronic Arts",
+    "platforms": [
+      "c64",
+      "atari8",
+      "apple2"
+    ],
+    "media": [],
+    "description": "Movie Maker is an animation construction program developed by Interactive Picture Systems. It lets users draw characters and shapes, assemble them into sequences, add sound effects and play the finished animation at different speeds. Completed movies can be saved as self-playing files that do not require the authoring program.\n\nOriginally released for Atari 8-bit computers in 1984, Movie Maker was republished by Electronic Arts in 1985 and appeared on Commodore 64 and Apple II as well. The surviving Apple II packshot confirms Ariolasoft's European edition.",
+    "image": "images/Movie Maker.jpg",
+    "imageCredit": "",
+    "sources": "Ariolasoft Apple II packaging; Centre for Computing History collection record; contemporary Electronic Arts and Interactive Picture Systems records.",
+    "lastReviewed": "2026-10-01"
+  },
+  {
+    "slug": "stealth",
+    "title": "Stealth",
+    "year": 1984,
+    "developer": "Tracy LaGrone and Richard E. Sansom",
+    "label": "Brøderbund",
+    "platforms": [
+      "c64",
+      "atari8"
+    ],
+    "media": [],
+    "description": "Stealth is a pseudo-3D rail shooter designed by Tracy LaGrone and Richard E. Sansom and published by Brøderbund in 1984. At the controls of a low-flying Stealth Starfighter, the player must penetrate hostile territory and destroy the Dark Tower, stronghold of the Council of Nine.\n\nWarp-fighters attack from the air while radar towers, photon tanks, missiles and laser artillery defend the landscape below. Positive energy fields replenish the ship, while negative fields drain it. Ariolasoft released Stealth in Europe for Commodore 64 and Atari 8-bit computers.",
+    "image": "images/Stealth.jpg",
+    "imageCredit": "",
+    "sources": "Ariolasoft Autumn/Winter 1985 catalogue; original Ariolasoft Commodore 64 packaging; Brøderbund release records.",
+    "lastReviewed": "2026-10-01"
   },
   {
     "slug": "realmofimpossibility",
@@ -573,6 +651,58 @@
     "lastReviewed": ""
   },
   {
+    "slug": "bugblitz",
+    "title": "Bug Blitz",
+    "year": 1985,
+    "developer": "Andromeda Software",
+    "label": "Ariolasoft",
+    "platforms": [
+      "c64"
+    ],
+    "media": [],
+    "description": "Bug Blitz is a multi-directional Commodore 64 shooter created by András Pohl of Andromeda Software and published by Ariolasoft in 1985. The player pilots a spacecraft through dangerous tunnels to reach caverns occupied by an army of mutant bugs.\n\nAfter destroying the bugs in a cavern, the ship must retrace its route to the planet's surface. Even there it is not safe: randomly pulsing energy fields cover the landscape and can destroy the ship before the mission is complete.",
+    "image": "images/bug blitz.jpg",
+    "imageCredit": "",
+    "sources": "Ariolasoft Autumn/Winter 1985 catalogue; Lemon64 Bug Blitz credits; C64-Wiki Bug Blitz entry.",
+    "lastReviewed": "2026-10-01"
+  },
+  {
+    "slug": "printmaster",
+    "title": "Print Master",
+    "year": 1985,
+    "developer": "Unison World",
+    "label": "Ariolasoft",
+    "platforms": [
+      "c64",
+      "pcbooter",
+      "atarist"
+    ],
+    "media": [],
+    "description": "Print Master is a creative graphics program from Unison World that lets users design and print personalised greetings cards, signs, stationery, calendars, banners and memos without programming or drawing skills. Designs are assembled from menus of borders, graphics, layouts and fonts before adding a message and sending the result to a printer.\n\nThe Ariolasoft catalogue advertised Commodore 64 and IBM PC editions, with more than 100 prepared graphics, eleven patterns, eight fonts and eleven border designs. The surviving Ariolasoft packshot is for the Atari 520 ST edition.",
+    "image": "images/PrintMaster.jpeg",
+    "imageCredit": "",
+    "sources": "Ariolasoft Autumn/Winter 1985 catalogue; surviving Ariolasoft Atari ST packaging; Unison World Print Master records.",
+    "lastReviewed": "2026-10-01"
+  },
+  {
+    "slug": "saucerattack",
+    "title": "Saucer Attack",
+    "year": 1984,
+    "developer": "James D. Sachs",
+    "label": "Ariolasoft",
+    "platforms": [
+      "c64"
+    ],
+    "media": [
+      "images/SaucerAttack-Back.jpg"
+    ],
+    "description": "Saucer Attack is James D. Sachs' Commodore 64 shoot-'em-up, released in Europe by Ariolasoft. Alien saucers are attacking Washington, D.C., and the player must destroy them with carefully aimed energy balls. Every missed shot scores for the invaders, so accuracy is essential.\n\nThe pace quickens as the battle continues. Score enough points and the player earns a chance to attack the mothership and save the city. The original Ariolasoft packaging promoted the game's high-resolution graphics and rich sound effects.",
+    "image": "images/SaucerAttack-Front.jpg",
+    "imageCredit": "",
+    "sources": "Original Ariolasoft front and back packaging; Ariolasoft Autumn/Winter 1985 catalogue; https://en.wikipedia.org/wiki/Saucer_Attack!",
+    "lastReviewed": "2026-10-01"
+  },
+  {
     "slug": "panzadrome",
     "title": "Panzadrome",
     "year": 1985,
@@ -599,7 +729,9 @@
       "c64",
       "atari8"
     ],
-    "media": [],
+    "media": [
+      "images/paperclip-ariolasoft.png"
+    ],
     "description": "PaperClip was the flagship word processor from Canadian software company Batteries Included. The Commodore 64 version was written by Steve Douglas; Steve Ahlstrom and Dan Moore produced the substantially different Atari 8-bit version, drawing on the editor from the Action! programming language.\n\nPaperClip combined document editing and printing with unusually capable features for an 8-bit home computer, including macros, multiple editing windows, search and replace, block operations and mail-merge facilities. It became one of the best-known serious applications for both platforms.\n\nAriolasoft published PaperClip in the UK in 1985 for the Commodore 64 and Atari 8-bit family. Both Ariolasoft editions were supplied on disk; there were no cassette editions.",
     "image": "images/paperclip.gif",
     "imageCredit": "",
@@ -837,7 +969,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nStarburst: A Walk on the Wild Side appeared in 1986 under the Ariolasoft label. The catalogue credits Tony Takoushi.\n\nKnown catalogue formats: Commodore 16.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "",
+    "image": "images/starburst.png",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -882,10 +1014,11 @@
     "developer": "RamJam Corp",
     "label": "Ariolasoft",
     "platforms": [
-      "cpc"
+      "cpc",
+      "spectrum"
     ],
     "media": [],
-    "description": "Research in progress.\n\nThe Terrors of Trantoss appeared in 1986 under the Ariolasoft label. The catalogue credits RamJam Corp.\n\nKnown catalogue formats: Amstrad CPC.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
+    "description": "Research in progress.\n\nThe Terrors of Trantoss appeared in 1986 under the Ariolasoft label. The catalogue credits RamJam Corp.\n\nKnown catalogue formats: Amstrad CPC and ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
     "image": "images/terrors-of-trantoss.jpg",
     "imageCredit": "",
     "sources": "",
@@ -956,7 +1089,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nMatrix and Laserzone appeared in 1986 under the Ariolasoft label. The catalogue credits LLamasoft.\n\nKnown catalogue formats: Commodore 16.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "images/matrix-and-laserzone.png",
+    "image": "images/marix_laserzone.jpg",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -980,7 +1113,7 @@
     ],
     "media": [],
     "description": "Research in progress.\n\nArcticfox appeared in 1986 under the Electronic Arts label. The catalogue credits Dynamix.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum, MSX, PC Booter, Atari ST, Amiga, Apple II, Amstrad PCW.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
-    "image": "images/arcticfox-box.jpg",
+    "image": "images/ArcticFox-Ariola.png",
     "imageCredit": "",
     "sources": "",
     "lastReviewed": ""
@@ -1205,7 +1338,7 @@
       "spectrum"
     ],
     "media": [],
-    "description": "Out of This World is a colourful side-scrolling shoot-'em-up designed by Bettertech and published by Ariolasoft under the Reaktör label in 1987 for the Commodore 64, Amstrad CPC and ZX Spectrum. Eight looping worlds combine enemy waves, collectable weapon pods and enormous end-of-world Guardians. A playable browser restoration preserves the Spectrum loading screen, reconstructed CPC artwork and Jason C. Brooke's original C64 SID music.",
+    "description": "Out of This World is a colourful side-scrolling shoot-'em-up designed by Bettertech, the company run by James Poole and Gary Yorke, and published by Ariolasoft under the Reaktör label in 1987 for the Commodore 64, Amstrad CPC and ZX Spectrum. Eight looping worlds combine enemy waves, collectable weapon pods and enormous end-of-world Guardians. A playable browser restoration preserves the Spectrum loading screen, reconstructed CPC artwork and Jason C. Brooke's original C64 SID music.",
     "image": "images/out-of-this-world.jpg",
     "imageCredit": "",
     "sources": "Original releases; World of Spectrum; Lemon64/HVSC; CPC-Power",
@@ -1241,13 +1374,14 @@
       "spectrum"
     ],
     "media": [
-      "images/starfox-spectrum-screenshot.png"
+      "images/starfox-spectrum-screenshot.png",
+      "images/starfox, back-credits.jpg"
     ],
-    "description": "Research in progress.\n\nStarfox appeared in 1987 under the Reaktor label. The catalogue credits Realtime Games.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
+    "description": "Starfox is a space-combat game developed by Realtime Games and published on Ariolasoft's Reaktor label in 1987. Its story is set in 2746, after centuries of conflict have left the eight planets of the Hyturian system locked in full-scale war. The long-standing Rubicon barrier has been breached, and the player is sent to discover how and restore the peace.\n\nThe surviving multilingual packaging covers the Commodore 64, Amstrad CPC and ZX Spectrum editions. It credits James Poole as producer, Harry Oversoft as director, Alex and Servo with first art-unit direction, Wong with financial direction, and Mandy and Jules with press and co-ordination.",
     "image": "images/starfox-spectrum-cover.jpg",
     "imageCredit": "",
-    "sources": "",
-    "lastReviewed": ""
+    "sources": "Original Ariolasoft/Reaktor packaging; first-hand production recollection supplied by James Poole.",
+    "lastReviewed": "2026-10-01"
   },
   {
     "slug": "zarjaz",
