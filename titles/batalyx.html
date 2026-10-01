@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batalyx</title>
-    <link rel="stylesheet" href="titles.css">
+    <script>document.documentElement.classList.toggle("is-embedded", window.self !== window.top);</script>
+    <link rel="stylesheet" href="titles.css?v=20261001-detail">
 </head>
 <body>
-    <div id="image-container" class="image-gallery image-count-1">
+    <a class="detail-close" href="../titles.html" aria-label="Back to the games catalogue" title="Back to the games catalogue">&times;</a>
+    <section id="image-container" class="image-gallery image-count-1">
         <img src="images/batalyx.jpg" alt="Batalyx image 1" loading="lazy">
-    </div>
-    <div id="text-container">
-        <h2 id="text-header">Batalyx</h2>
-        <textarea id="text-box" readonly>Research in progress.
-
-Batalyx appeared in 1985 under the Ariolasoft label. The catalogue credits Batlalyx.
-
-Known catalogue formats: Commodore 64.
-
-This holding page will be expanded as contemporary material and first-hand recollections are reviewed.</textarea>
-    </div>
+    </section>
+    <article id="text-container">
+        <p class="detail-kicker">Ariolasoft Games Archive</p>
+        <h1 id="text-header">Batalyx</h1>
+        <div class="detail-meta" aria-label="Game details">
+            <span>1985</span>
+            <span>Batlalyx</span>
+            <span>Ariolasoft</span>
+            <span>Commodore 64</span>
+        </div>
+        <div id="text-box" class="detail-copy">
+            <p>Research in progress.</p>
+            <p>Batalyx appeared in 1985 under the Ariolasoft label. The catalogue credits Batlalyx.</p>
+            <p>Known catalogue formats: Commodore 64.</p>
+            <p>This holding page will be expanded as contemporary material and first-hand recollections are reviewed.</p>
+        </div>
+    </article>
 </body>
 </html>

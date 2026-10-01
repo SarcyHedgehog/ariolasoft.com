@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triaxos</title>
-    <link rel="stylesheet" href="titles.css">
+    <script>document.documentElement.classList.toggle("is-embedded", window.self !== window.top);</script>
+    <link rel="stylesheet" href="titles.css?v=20261001-detail">
 </head>
 <body>
-    <div id="image-container" class="image-gallery image-count-1">
+    <a class="detail-close" href="../titles.html" aria-label="Back to the games catalogue" title="Back to the games catalogue">&times;</a>
+    <section id="image-container" class="image-gallery image-count-1">
         <img src="images/triaxos.jpg" alt="Triaxos image 1" loading="lazy">
-    </div>
-    <div id="text-container">
-        <h2 id="text-header">Triaxos</h2>
-        <textarea id="text-box" readonly>Research in progress.
-
-Triaxos appeared in 1987 under the 39 Steps label. The catalogue credits Pennsoft.
-
-Known catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.
-
-This holding page will be expanded as contemporary material and first-hand recollections are reviewed.</textarea>
-    </div>
+    </section>
+    <article id="text-container">
+        <p class="detail-kicker">Ariolasoft Games Archive</p>
+        <h1 id="text-header">Triaxos</h1>
+        <div class="detail-meta" aria-label="Game details">
+            <span>1987</span>
+            <span>Pennsoft</span>
+            <span>39 Steps</span>
+            <span>Commodore 64</span>
+            <span>Amstrad CPC</span>
+            <span>ZX Spectrum</span>
+        </div>
+        <div id="text-box" class="detail-copy">
+            <p>Research in progress.</p>
+            <p>Triaxos appeared in 1987 under the 39 Steps label. The catalogue credits Pennsoft.</p>
+            <p>Known catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.</p>
+            <p>This holding page will be expanded as contemporary material and first-hand recollections are reviewed.</p>
+        </div>
+    </article>
 </body>
 </html>

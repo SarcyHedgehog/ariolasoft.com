@@ -113,3 +113,224 @@ body {
 .card img {
     background-color: black; /* Set background color of the image container to black */
 }
+
+/* Responsive catalogue detail layout. The generated pages use the same
+   document both inside the catalogue modal and as direct landing pages. */
+:root {
+    color-scheme: dark;
+    background: #050505;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    width: min(100%, 1240px);
+    height: auto;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: minmax(0, 1.08fr) minmax(340px, 0.92fr);
+    justify-content: initial;
+    background: #000000;
+    color: #f5f7fa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    overflow: auto;
+}
+
+#image-container {
+    width: auto;
+    height: auto;
+    min-width: 0;
+    min-height: 100vh;
+    gap: 18px;
+    padding: 38px;
+    background:
+        radial-gradient(circle at 50% 35%, rgba(42, 83, 117, 0.32), transparent 52%),
+        #050505;
+}
+
+#image-container img {
+    filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.55));
+}
+
+#text-container {
+    width: auto;
+    height: auto;
+    min-width: 0;
+    min-height: 100vh;
+    align-items: stretch;
+    padding: 62px 52px 44px;
+    background: linear-gradient(145deg, #121923 0%, #080b10 70%);
+    border-left: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+#text-container.text-only {
+    grid-column: 1 / -1;
+    width: min(100%, 880px);
+    justify-self: center;
+    border-left: 0;
+}
+
+.detail-kicker {
+    margin: 0 0 12px;
+    color: #61d5ff;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+}
+
+#text-header {
+    margin: 0;
+    color: #ffffff;
+    font-size: clamp(34px, 5vw, 58px);
+    line-height: 0.98;
+    letter-spacing: -0.035em;
+}
+
+.detail-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 22px 0 26px;
+}
+
+.detail-meta span {
+    padding: 6px 10px;
+    border: 1px solid rgba(97, 213, 255, 0.32);
+    border-radius: 999px;
+    color: #d6eff8;
+    background: rgba(31, 89, 117, 0.2);
+    font-size: 12px;
+    line-height: 1;
+}
+
+#text-box {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+}
+
+.detail-copy {
+    color: #dce2e8;
+    line-height: 1.58;
+    overflow-y: auto;
+    scrollbar-color: #427896 transparent;
+    padding-right: 8px;
+}
+
+.detail-copy p {
+    margin: 0 0 1em;
+}
+
+.detail-copy p:last-child {
+    margin-bottom: 0;
+}
+
+.detail-sources {
+    margin: 24px 0 0;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    color: #8fa2b2;
+    font-size: 12px;
+    line-height: 1.45;
+}
+
+.detail-close {
+    position: fixed;
+    z-index: 10;
+    top: 16px;
+    right: 18px;
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    color: #ffffff;
+    background: rgba(5, 8, 12, 0.88);
+    font: 30px/1 Arial, sans-serif;
+    text-decoration: none;
+    backdrop-filter: blur(8px);
+}
+
+.detail-close:hover,
+.detail-close:focus-visible {
+    color: #000000;
+    background: #ffffff;
+    outline: none;
+}
+
+html.is-embedded .detail-close {
+    display: none;
+}
+
+.play-link {
+    align-self: flex-start;
+    margin-top: 22px;
+    border-radius: 7px;
+}
+
+@media (max-width: 760px) {
+    body {
+        display: block;
+        width: 100%;
+    }
+
+    #image-container {
+        width: 100%;
+        min-height: 48vh;
+        height: auto;
+        grid-auto-rows: minmax(260px, 48vh);
+        padding: 58px 18px 20px;
+    }
+
+    #image-container.image-count-2 {
+        grid-template-rows: repeat(2, minmax(260px, 48vh));
+    }
+
+    #text-container,
+    #text-container.text-only {
+        width: 100%;
+        min-height: auto;
+        padding: 34px 24px 42px;
+        border-top: 1px solid rgba(255, 255, 255, 0.09);
+        border-left: 0;
+    }
+
+    #text-container.text-only {
+        padding-top: 74px;
+    }
+
+    #text-header {
+        font-size: clamp(38px, 12vw, 58px);
+    }
+
+    .detail-copy {
+        overflow: visible;
+        padding-right: 0;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .detail-close,
+    .play-link {
+        transition: color 150ms ease, background-color 150ms ease, transform 150ms ease;
+    }
+
+    .detail-close:hover,
+    .play-link:hover {
+        transform: translateY(-1px);
+    }
+}

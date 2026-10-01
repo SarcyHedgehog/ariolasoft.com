@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Choplifter!</title>
-    <link rel="stylesheet" href="titles.css">
+    <script>document.documentElement.classList.toggle("is-embedded", window.self !== window.top);</script>
+    <link rel="stylesheet" href="titles.css?v=20261001-detail">
 </head>
 <body>
-    <div id="image-container" class="image-gallery image-count-2">
+    <a class="detail-close" href="../titles.html" aria-label="Back to the games catalogue" title="Back to the games catalogue">&times;</a>
+    <section id="image-container" class="image-gallery image-count-2">
         <img src="images/choplifter-box.png" alt="Choplifter! image 1" loading="lazy">
         <img src="images/choplifter.jpg" alt="Choplifter! image 2" loading="lazy">
-    </div>
-    <div id="text-container">
-        <h2 id="text-header">Choplifter!</h2>
-        <textarea id="text-box" readonly>Choplifter is a classic video game developed by Dan Gorlin and published by Ariolasoft in 1982. It's a side-scrolling shoot 'em up where players control a helicopter rescuing prisoners of war. With its innovative gameplay and challenging levels, "Choplifter" became a hit, showcasing Ariolasoft's commitment to quality and innovation in gaming during the early '80s.</textarea>
-    </div>
+    </section>
+    <article id="text-container">
+        <p class="detail-kicker">Ariolasoft Games Archive</p>
+        <h1 id="text-header">Choplifter!</h1>
+        <div class="detail-meta" aria-label="Game details">
+            <span>1983</span>
+            <span>Brøderbund</span>
+            <span>Brøderbund</span>
+            <span>Commodore 64</span>
+            <span>Atari 8-bit</span>
+        </div>
+        <div id="text-box" class="detail-copy">
+            <p>Choplifter is a classic video game developed by Dan Gorlin and published by Ariolasoft in 1982. It's a side-scrolling shoot 'em up where players control a helicopter rescuing prisoners of war. With its innovative gameplay and challenging levels, "Choplifter" became a hit, showcasing Ariolasoft's commitment to quality and innovation in gaming during the early '80s.</p>
+        </div>
+    </article>
 </body>
 </html>

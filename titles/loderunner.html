@@ -4,15 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lode Runner</title>
-    <link rel="stylesheet" href="titles.css">
+    <script>document.documentElement.classList.toggle("is-embedded", window.self !== window.top);</script>
+    <link rel="stylesheet" href="titles.css?v=20261001-detail">
 </head>
 <body>
-    <div id="image-container" class="image-gallery image-count-1">
+    <a class="detail-close" href="../titles.html" aria-label="Back to the games catalogue" title="Back to the games catalogue">&times;</a>
+    <section id="image-container" class="image-gallery image-count-1">
         <img src="images/loderunner.png" alt="Lode Runner image 1" loading="lazy">
-    </div>
-    <div id="text-container">
-        <h2 id="text-header">Lode Runner</h2>
-        <textarea id="text-box" readonly>Lode Runner is a classic puzzle-platform video game developed by Douglas E. Smith and released in 1983. Players control a character who must collect all the gold in a level while avoiding enemies and using strategically placed ladders and platforms. Known for its innovative gameplay and level editor, Lode Runner has become an iconic title in the history of video games.</textarea>
-    </div>
+    </section>
+    <article id="text-container">
+        <p class="detail-kicker">Ariolasoft Games Archive</p>
+        <h1 id="text-header">Lode Runner</h1>
+        <div class="detail-meta" aria-label="Game details">
+            <span>1983</span>
+            <span>Brøderbund</span>
+            <span>Brøderbund</span>
+            <span>Commodore 64</span>
+            <span>Amstrad CPC</span>
+            <span>ZX Spectrum</span>
+            <span>Atari 8-bit</span>
+            <span>MSX</span>
+            <span>MS-DOS</span>
+            <span>Atari ST</span>
+            <span>Amiga</span>
+            <span>Apple II</span>
+        </div>
+        <div id="text-box" class="detail-copy">
+            <p>Lode Runner is a classic puzzle-platform video game developed by Douglas E. Smith and released in 1983. Players control a character who must collect all the gold in a level while avoiding enemies and using strategically placed ladders and platforms. Known for its innovative gameplay and level editor, Lode Runner has become an iconic title in the history of video games.</p>
+        </div>
+    </article>
 </body>
 </html>

@@ -4,22 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camelot Warriors</title>
-    <link rel="stylesheet" href="titles.css">
+    <script>document.documentElement.classList.toggle("is-embedded", window.self !== window.top);</script>
+    <link rel="stylesheet" href="titles.css?v=20261001-detail">
 </head>
 <body>
-    <div id="image-container" class="image-gallery image-count-2">
+    <a class="detail-close" href="../titles.html" aria-label="Back to the games catalogue" title="Back to the games catalogue">&times;</a>
+    <section id="image-container" class="image-gallery image-count-2">
         <img src="images/camelot-warriors-cover.jpg" alt="Camelot Warriors image 1" loading="lazy">
         <img src="images/camelot-warriors-title.png" alt="Camelot Warriors image 2" loading="lazy">
-    </div>
-    <div id="text-container">
-        <h2 id="text-header">Camelot Warriors</h2>
-        <textarea id="text-box" readonly>Research in progress.
-
-Camelot Warriors appeared in 1985 under the Ariolasoft label. The catalogue credits Dinamic Software.
-
-Known catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum, MSX.
-
-This holding page will be expanded as contemporary material and first-hand recollections are reviewed.</textarea>
-    </div>
+    </section>
+    <article id="text-container">
+        <p class="detail-kicker">Ariolasoft Games Archive</p>
+        <h1 id="text-header">Camelot Warriors</h1>
+        <div class="detail-meta" aria-label="Game details">
+            <span>1985</span>
+            <span>Dinamic Software</span>
+            <span>Ariolasoft</span>
+            <span>Commodore 64</span>
+            <span>Amstrad CPC</span>
+            <span>ZX Spectrum</span>
+            <span>MSX</span>
+        </div>
+        <div id="text-box" class="detail-copy">
+            <p>Research in progress.</p>
+            <p>Camelot Warriors appeared in 1985 under the Ariolasoft label. The catalogue credits Dinamic Software.</p>
+            <p>Known catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum, MSX.</p>
+            <p>This holding page will be expanded as contemporary material and first-hand recollections are reviewed.</p>
+        </div>
+    </article>
 </body>
 </html>

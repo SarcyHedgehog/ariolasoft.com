@@ -4,16 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M.U.L.E.</title>
-    <link rel="stylesheet" href="titles.css">
+    <script>document.documentElement.classList.toggle("is-embedded", window.self !== window.top);</script>
+    <link rel="stylesheet" href="titles.css?v=20261001-detail">
 </head>
 <body>
-    <div id="image-container" class="image-gallery image-count-2">
+    <a class="detail-close" href="../titles.html" aria-label="Back to the games catalogue" title="Back to the games catalogue">&times;</a>
+    <section id="image-container" class="image-gallery image-count-2">
         <img src="images/mule.jpg" alt="M.U.L.E. image 1" loading="lazy">
         <img src="images/mule-d7.jpg" alt="M.U.L.E. image 2" loading="lazy">
-    </div>
-    <div id="text-container">
-        <h2 id="text-header">M.U.L.E.</h2>
-        <textarea id="text-box" readonly>M.U.L.E. is a multiplayer economic simulation game developed by Ozark Softscape and published by Electronic Arts in 1983. Players compete to develop a colony on an alien planet by managing resources, trading goods, and outsmarting opponents. Renowned for its strategic depth and innovative gameplay, M.U.L.E. remains a classic in the realm of simulation games.</textarea>
-    </div>
+    </section>
+    <article id="text-container">
+        <p class="detail-kicker">Ariolasoft Games Archive</p>
+        <h1 id="text-header">M.U.L.E.</h1>
+        <div class="detail-meta" aria-label="Game details">
+            <span>1983</span>
+            <span>Ozark</span>
+            <span>Electronic Arts</span>
+            <span>Commodore 64</span>
+            <span>Atari 8-bit</span>
+            <span>MSX</span>
+            <span>MS-DOS</span>
+        </div>
+        <div id="text-box" class="detail-copy">
+            <p>M.U.L.E. is a multiplayer economic simulation game developed by Ozark Softscape and published by Electronic Arts in 1983. Players compete to develop a colony on an alien planet by managing resources, trading goods, and outsmarting opponents. Renowned for its strategic depth and innovative gameplay, M.U.L.E. remains a classic in the realm of simulation games.</p>
+        </div>
+    </article>
 </body>
 </html>

@@ -1209,7 +1209,9 @@
     "image": "images/out-of-this-world.jpg",
     "imageCredit": "",
     "sources": "Original releases; World of Spectrum; Lemon64/HVSC; CPC-Power",
-    "lastReviewed": "2026-08-15"
+    "lastReviewed": "2026-08-15",
+    "actionUrl": "../games/out-of-this-world/",
+    "actionLabel": "Play the browser restoration"
   },
   {
     "slug": "pileup",
@@ -1358,18 +1360,20 @@
     "title": "Ziggurat",
     "year": 1988,
     "developer": "Chris Sawyer",
-    "label": "Ariolasoft",
+    "label": "Reaktor",
     "platforms": [
       "c64",
       "cpc",
       "spectrum"
     ],
-    "media": [],
-    "description": "Research in progress.\n\nZiggurat appeared in 1988 under the Ariolasoft label. The catalogue credits Chris Sawyer.\n\nKnown catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.\n\nThis holding page will be expanded as contemporary material and first-hand recollections are reviewed.",
+    "media": [
+      "images/ziggurat-credits.png"
+    ],
+    "description": "Ziggurat is a 1988 isometric arcade adventure developed by Tigress Designs and presented by Ariolasoft's Reaktor label. The preserved title screen provides direct contemporary credit for the production: the game was written by Chris Sawyer, designed by Tigress Designs, and features graphics by ALK.\n\nPlayers explore a maze-like structure on a treasure hunt, navigating interconnected rooms while avoiding their inhabitants and making use of a selectable inventory. The controls include jumping, firing, laying a lure, reversing direction and manipulating objects. Contemporary coverage advised players to draw a map as they explored.\n\nThe surviving credit screen is particularly valuable because it distinguishes Tigress Designs' design role from Sawyer's programming credit, explicitly displaying the words 'Written by Chris Sawyer'.",
     "image": "images/ziggurat.png",
     "imageCredit": "",
-    "sources": "",
-    "lastReviewed": ""
+    "sources": "Original Ziggurat title and credit screen; CPCRulez preservation record and contemporary ASM review transcription.",
+    "lastReviewed": "2026-10-01"
   },
   {
     "slug": "vermeer",

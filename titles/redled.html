@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Red L.E.D.</title>
-    <link rel="stylesheet" href="titles.css">
+    <script>document.documentElement.classList.toggle("is-embedded", window.self !== window.top);</script>
+    <link rel="stylesheet" href="titles.css?v=20261001-detail">
 </head>
 <body>
-    <div id="image-container" class="image-gallery image-count-1">
+    <a class="detail-close" href="../titles.html" aria-label="Back to the games catalogue" title="Back to the games catalogue">&times;</a>
+    <section id="image-container" class="image-gallery image-count-1">
         <img src="images/red-led.jpg" alt="Red L.E.D. image 1" loading="lazy">
-    </div>
-    <div id="text-container">
-        <h2 id="text-header">Red L.E.D.</h2>
-        <textarea id="text-box" readonly>Research in progress.
-
-Red L.E.D. appeared in 1987 under the Starlight label. The catalogue credits Starlight.
-
-Known catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.
-
-This holding page will be expanded as contemporary material and first-hand recollections are reviewed.</textarea>
-    </div>
+    </section>
+    <article id="text-container">
+        <p class="detail-kicker">Ariolasoft Games Archive</p>
+        <h1 id="text-header">Red L.E.D.</h1>
+        <div class="detail-meta" aria-label="Game details">
+            <span>1987</span>
+            <span>Starlight</span>
+            <span>Starlight</span>
+            <span>Commodore 64</span>
+            <span>Amstrad CPC</span>
+            <span>ZX Spectrum</span>
+        </div>
+        <div id="text-box" class="detail-copy">
+            <p>Research in progress.</p>
+            <p>Red L.E.D. appeared in 1987 under the Starlight label. The catalogue credits Starlight.</p>
+            <p>Known catalogue formats: Commodore 64, Amstrad CPC, ZX Spectrum.</p>
+            <p>This holding page will be expanded as contemporary material and first-hand recollections are reviewed.</p>
+        </div>
+    </article>
 </body>
 </html>

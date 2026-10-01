@@ -120,21 +120,46 @@ def validate(records: list[dict]) -> None:
 
 def render_detail(record: dict) -> str:
     title = html.escape(record["title"])
-    description = html.escape(record["description"], quote=False)
+    paragraphs = []
+    for paragraph in record["description"].split("\n\n"):
+        lines = "<br>".join(html.escape(line, quote=False) for line in paragraph.splitlines())
+        if lines:
+            paragraphs.append(f"            <p>{lines}</p>")
+    description = "\n".join(paragraphs)
     image = record.get("image", "")
     gallery = []
     for path in [image, *record.get("media", [])]:
         if path and path not in gallery:
             gallery.append(path)
     sources = record.get("sources", "")
+    platform_names = dict(PLATFORMS)
+    metadata = [str(record["year"]), record["developer"], record["label"]]
+    metadata.extend(platform_names[key] for key in record.get("platforms", []))
+    metadata_html = "\n".join(
+        f"            <span>{html.escape(value)}</span>" for value in metadata
+    )
+    action_url = record.get("actionUrl", "")
+    action_label = record.get("actionLabel", "")
+    action_html = ""
+    if action_url and action_label:
+        action_html = (
+            f'\n        <a class="play-link" href="{html.escape(action_url, quote=True)}" '
+            f'target="_blank" rel="noopener">{html.escape(action_label)}</a>'
+        )
+    source_html = ""
+    if sources:
+        source_html = (
+            f'\n        <p class="detail-sources"><strong>Sources reviewed:</strong> '
+            f'{html.escape(sources)}</p>'
+        )
     if gallery:
         images = "\n".join(
             f'        <img src="{html.escape(path, quote=True)}" alt="{title} image {index}" loading="lazy">'
             for index, path in enumerate(gallery, start=1)
         )
-        body = f'''    <div id="image-container" class="image-gallery image-count-{len(gallery)}">\n{images}\n    </div>\n    <div id="text-container">'''
+        body = f'''    <section id="image-container" class="image-gallery image-count-{len(gallery)}">\n{images}\n    </section>\n    <article id="text-container">'''
     else:
-        body = '    <div id="text-container" class="text-only">'
+        body = '    <article id="text-container" class="text-only">'
     source_comment = f"\n    <!-- {sources} -->" if sources else ""
     return f'''<!DOCTYPE html>
 <html lang="en">
@@ -142,13 +167,21 @@ def render_detail(record: dict) -> str:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
-    <link rel="stylesheet" href="titles.css">
+    <script>document.documentElement.classList.toggle("is-embedded", window.self !== window.top);</script>
+    <link rel="stylesheet" href="titles.css?v=20261001-detail">
 </head>
 <body>
+    <a class="detail-close" href="../titles.html" aria-label="Back to the games catalogue" title="Back to the games catalogue">&times;</a>
 {body}
-        <h2 id="text-header">{title}</h2>
-        <textarea id="text-box" readonly>{description}</textarea>
-    </div>{source_comment}
+        <p class="detail-kicker">Ariolasoft Games Archive</p>
+        <h1 id="text-header">{title}</h1>
+        <div class="detail-meta" aria-label="Game details">
+{metadata_html}
+        </div>
+        <div id="text-box" class="detail-copy">
+{description}
+        </div>{action_html}{source_html}
+    </article>{source_comment}
 </body>
 </html>
 '''
