@@ -955,8 +955,10 @@
     "description": "Sepulcri is a 1986 platform game programmed by Chris Sawyer and published by Ariolasoft. In the year 2075, engineers testing the first Strategic Defence Initiative satellite send a tiny robot inside its main computer to inspect the circuitry and report its many faults. Unfortunately, one confused technician has miniaturised male sheep and installed them in place of conventional RAM, leaving the robot to contend with some unusually literal computer hazards.\n\nThe first task is to explore the rooms and activate all 50 dip-switches by jumping on them. Moving enemies, sharp surfaces, unstable integrated circuits and floating points threaten the robot along the way. Once every switch has been found, the robot must enter ROTTES - Ridiculously Over The Top Exit Security - and alter ten code posts to spell LETMEOUTOK before locating the exit.\n\nThe original instructions credit Chris Sawyer with programming, Jill Lawson at 4am Designs with graphics and puns, the Tech Team with the implausible storyline, and IFRIT with the instructions. They also document redefinable controls, a pause function and an unusually useful screen-dump feature intended to help players map the game's rooms.",
     "image": "images/sepulcri.png",
     "imageCredit": "",
-    "sources": "Preserved game instructions: source-data/sepulcri-instructions.pdf",
-    "lastReviewed": "2026-09-30"
+    "sources": "Original Sepulcri instruction booklet, Ariolasoft UK Ltd (1986), page 2: 'Programmed by Chris Sawyer'.",
+    "lastReviewed": "2026-10-03",
+    "actionUrl": "documents/sepulcri-instructions.pdf",
+    "actionLabel": "Read the original instruction booklet"
   },
   {
     "slug": "starburstawalkonthewildside",
@@ -1506,8 +1508,10 @@
     "description": "Ziggurat is a 1988 isometric arcade adventure developed by Tigress Designs and presented by Ariolasoft's Reaktor label. The preserved title screen provides direct contemporary credit for the production: the game was written by Chris Sawyer, designed by Tigress Designs, and features graphics by ALK.\n\nPlayers explore a maze-like structure on a treasure hunt, navigating interconnected rooms while avoiding their inhabitants and making use of a selectable inventory. The controls include jumping, firing, laying a lure, reversing direction and manipulating objects. Contemporary coverage advised players to draw a map as they explored.\n\nThe surviving credit screen is particularly valuable because it distinguishes Tigress Designs' design role from Sawyer's programming credit, explicitly displaying the words 'Written by Chris Sawyer'.",
     "image": "images/ziggurat.png",
     "imageCredit": "",
-    "sources": "Original Ziggurat title and credit screen; CPCRulez preservation record and contemporary ASM review transcription.",
-    "lastReviewed": "2026-10-01"
+    "sources": "Original Ziggurat title and credit screen preserved by CPCWiki: 'Written by Chris Sawyer'; CPCRulez preservation record and contemporary ASM review transcription.",
+    "lastReviewed": "2026-10-03",
+    "actionUrl": "https://www.cpcwiki.eu/zone/media/screens/z/ziggurat-2.png",
+    "actionLabel": "View the original Ziggurat credit screen"
   },
   {
     "slug": "vermeer",
