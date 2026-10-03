@@ -947,15 +947,13 @@
     "developer": "Chris Sawyer",
     "label": "Ariolasoft",
     "platforms": [
-      "cpc",
-      "spectrum",
-      "msx"
+      "cpc"
     ],
     "media": [],
-    "description": "Sepulcri is a 1986 platform game programmed by Chris Sawyer and published by Ariolasoft. In the year 2075, engineers testing the first Strategic Defence Initiative satellite send a tiny robot inside its main computer to inspect the circuitry and report its many faults. Unfortunately, one confused technician has miniaturised male sheep and installed them in place of conventional RAM, leaving the robot to contend with some unusually literal computer hazards.\n\nThe first task is to explore the rooms and activate all 50 dip-switches by jumping on them. Moving enemies, sharp surfaces, unstable integrated circuits and floating points threaten the robot along the way. Once every switch has been found, the robot must enter ROTTES - Ridiculously Over The Top Exit Security - and alter ten code posts to spell LETMEOUTOK before locating the exit.\n\nThe original instructions credit Chris Sawyer with programming, Jill Lawson at 4am Designs with graphics and puns, the Tech Team with the implausible storyline, and IFRIT with the instructions. They also document redefinable controls, a pause function and an unusually useful screen-dump feature intended to help players map the game's rooms.",
+    "description": "Sepulcri is a 1986 Amstrad CPC platform game programmed by Chris Sawyer and published by Ariolasoft. It was adapted from Sawyer's earlier Memotech MTX game Sepulcri Scelerati, published by Megastar Games in 1985. When Sawyer subsequently offered the game to Ariolasoft for the Amstrad CPC, Ariolasoft shortened the title and commissioned replacement graphics from Jill Lawson at 4am Designs. This Ariolasoft edition was released only for the CPC; the Memotech MTX should not be confused with the unrelated MSX standard.\n\nIn the year 2075, engineers testing the first Strategic Defence Initiative satellite send a tiny robot inside its main computer to inspect the circuitry and report its many faults. Unfortunately, one confused technician has miniaturised male sheep and installed them in place of conventional RAM, leaving the robot to contend with some unusually literal computer hazards.\n\nThe first task is to explore the rooms and activate all 50 dip-switches by jumping on them. Moving enemies, sharp surfaces, unstable integrated circuits and floating points threaten the robot along the way. Once every switch has been found, the robot must enter ROTTES - Ridiculously Over The Top Exit Security - and alter ten code posts to spell LETMEOUTOK before locating the exit.\n\nThe original Ariolasoft instructions credit Chris Sawyer with programming, Jill Lawson at 4am Designs with graphics and puns, the Tech Team with the implausible storyline, and IFRIT with the instructions. They also document redefinable controls, a pause function and an unusually useful screen-dump feature intended to help players map the game's rooms.",
     "image": "images/sepulcri.png",
     "imageCredit": "",
-    "sources": "Original Sepulcri instruction booklet, Ariolasoft UK Ltd (1986), page 2: 'Programmed by Chris Sawyer'.",
+    "sources": "Memotech MTX software records for Sepulcri Scelerati (Megastar Games, 1985); first-hand Ariolasoft production recollection; original Sepulcri instruction booklet, Ariolasoft UK Ltd (1986), page 2: 'Programmed by Chris Sawyer' and 'Graphics and Puns by Jill Lawson at 4am Designs'.",
     "lastReviewed": "2026-10-03",
     "actionUrl": "documents/sepulcri-instructions.pdf",
     "actionLabel": "Read the original instruction booklet"
